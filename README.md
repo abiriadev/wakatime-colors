@@ -1,6 +1,6 @@
 # Wakatime Colors
 
-[![Update](https://github.com/abiriadev/wakatime-colors/actions/workflows/update.yaml/badge.svg)](https://github.com/abiriadev/wakatime-colors/actions/workflows/update.yaml)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/abiriadev/wakatime-colors) [![Update](https://github.com/abiriadev/wakatime-colors/actions/workflows/update.yaml/badge.svg)](https://github.com/abiriadev/wakatime-colors/actions/workflows/update.yaml) ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/abiriadev/wakatime-colors) ![GitHub Release](https://img.shields.io/github/v/release/abiriadev/wakatime-colors)
 
 ## Overview
 
