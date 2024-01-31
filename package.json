@@ -1,0 +1,21 @@
+{
+	"name": "wakatime-colors",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc",
+		"build:dev": "swc -d dist src"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cheerio": "1.0.0-rc.12"
+	},
+	"devDependencies": {
+		"@swc/cli": "^0.3.5",
+		"@swc/core": "^1.3.107",
+		"typescript": "^5.3.3"
+	}
+}
