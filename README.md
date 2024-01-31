@@ -48,3 +48,7 @@ This command will create a rendered SVG file named `colors.svg`.
 ## Preview
 
 ![](./colors.svg)
+
+## License
+
+[![GitHub](https://img.shields.io/github/license/abiriadev/wakatime-colors?color=7632ff&style=for-the-badge)](./LICENSE)
