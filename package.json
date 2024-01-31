@@ -9,8 +9,8 @@
 		"fetch": "node ./dist/src/cmd/saver.js"
 	},
 	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"author": "Abiria",
+	"license": "MIT",
 	"devDependencies": {
 		"@swc/cli": "^0.3.5",
 		"@swc/core": "^1.3.107",
