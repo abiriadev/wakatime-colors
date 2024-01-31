@@ -6,6 +6,9 @@
 		"emitDeclarationOnly": true,
 		"rootDir": ".",
 		"outDir": "./dist",
+		"paths": {
+			"@/*": ["./src/*"]
+		},
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
 		"strict": true,

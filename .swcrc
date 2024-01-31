@@ -6,9 +6,13 @@
 		},
 		"baseUrl": ".",
 		"target": "es2022"
+		"paths": {
+			"@/*": ["./src/*"]
+		}
 	},
 	"module": {
-		"type": "es6"
+		"type": "es6",
+		"ignoreDynamic": true
 	},
 	"sourceMaps": true
 }
