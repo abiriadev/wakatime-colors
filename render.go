@@ -37,6 +37,8 @@ func main() {
 		temp.Languages[i].X = 90 * i
 	}
 
+	temp.Height = len(temp.Languages) * 90
+
 	tmpl, err := template.New(fileTmpl).ParseFiles(fileTmpl)
 	if err != nil {
 		panic(err)
