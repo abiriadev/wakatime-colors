@@ -2,10 +2,14 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"os"
 	"text/template"
 )
+
+type Temp struct {
+	Height    int
+	Languages []Language
+}
 
 type Language struct {
 	X     int
@@ -26,15 +30,11 @@ func main() {
 		panic(err)
 	}
 
-	var languages []Language
-	json.NewDecoder(f).Decode(&languages)
+	var temp Temp
+	json.NewDecoder(f).Decode(&temp.Languages)
 
-	for i := range languages {
-		languages[i].X = 90 * i
-	}
-
-	for _, l := range languages {
-		fmt.Println(l.X)
+	for i := range temp.Languages {
+		temp.Languages[i].X = 90 * i
 	}
 
 	tmpl, err := template.New(fileTmpl).ParseFiles(fileTmpl)
@@ -47,7 +47,7 @@ func main() {
 		panic(err)
 	}
 
-	err = tmpl.Execute(out, languages)
+	err = tmpl.Execute(out, temp)
 	if err != nil {
 		panic(err)
 	}
