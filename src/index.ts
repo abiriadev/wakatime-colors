@@ -1,13 +1,20 @@
-import { load } from 'cheerio'
+import { cheerioJsonMapper } from 'cheerio-json-mapper'
 
-const $ = load(
-	Buffer.from(
+export const fetchJson = async () =>
+	(await cheerioJsonMapper(
 		await (
 			await fetch(
 				`https://wakatime.com/colors/languages`,
 			)
-		).arrayBuffer(),
-	),
-)
-
-
+		).text(),
+		[
+			{
+				$: '.editor-icons > .editor-icon',
+				color: ':first',
+				name: ':last',
+			},
+		],
+	)) as Array<{
+		name: string
+		color: string
+	}>
