@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"os"
 	"text/template"
 )
@@ -28,8 +29,12 @@ func main() {
 	var languages []Language
 	json.NewDecoder(f).Decode(&languages)
 
-	for i, l := range languages {
-		l.X = 90 * i
+	for i := range languages {
+		languages[i].X = 90 * i
+	}
+
+	for _, l := range languages {
+		fmt.Println(l.X)
 	}
 
 	tmpl, err := template.New(fileTmpl).ParseFiles(fileTmpl)
