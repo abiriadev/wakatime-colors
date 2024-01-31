@@ -4,7 +4,7 @@
 
 ## Overview
 
-A machine-readable list of programming languages along with their primary colors, as used in Wakatime.
+A machine-readable list of programming languages along with their primary colors, as used in [Wakatime](https://wakatime.com/)
 
 The data is updated automatically at regular intervals.
 
@@ -51,4 +51,4 @@ This command will create a rendered SVG file named `colors.svg`.
 
 ## License
 
-[![GitHub](https://img.shields.io/github/license/abiriadev/wakatime-colors?color=7632ff&style=for-the-badge)](./LICENSE)
+[![GitHub](https://img.shields.io/github/license/abiriadev/wakatime-colors?style=for-the-badge)](./LICENSE)
