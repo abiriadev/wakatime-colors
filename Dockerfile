@@ -16,6 +16,9 @@ RUN ["pnpm", "run", "build"]
 # package codebase
 RUN ["pnpm", "prune", "--prod"]
 
+RUN ["mkdir", "pack"]
+RUN ["mv", "package.json", "dist", "node_modules", "pack"]
+
 # run stage
 FROM node:20.11.0-slim AS runner
 WORKDIR /home/node/app
@@ -31,7 +34,7 @@ LABEL org.opencontainers.image.source="https://github.com/abiriadev/wakatime-col
 LABEL org.opencontainers.image.licenses="MIT"
 
 # copy packaged codebase
-COPY --from=builder /app/package.json /app/dist/ /app/node_modules/ ./
+COPY --from=builder /app/pack ./
 
 # run saver
-CMD ["node", "./dist/src/cmd/saver.js"]
+ENTRYPOINT ["node", "./dist/src/cmd/saver.js", "-"]
