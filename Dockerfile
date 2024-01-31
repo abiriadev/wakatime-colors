@@ -15,17 +15,12 @@ RUN ["pnpm", "run", "build"]
 
 # package codebase
 RUN ["pnpm", "prune", "--prod"]
-
 RUN ["mkdir", "pack"]
 RUN ["mv", "package.json", "dist", "node_modules", "pack"]
 
 # run stage
 FROM node:20.11.0-slim AS runner
-WORKDIR /home/node/app
-
-# production setup
-USER node
-ENV NODE_ENV production
+WORKDIR /app
 
 # labels
 LABEL org.opencontainers.image.authors="Abiria <abiria.dev@gmail.com>"
