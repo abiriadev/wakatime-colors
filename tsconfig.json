@@ -4,6 +4,7 @@
 		"module": "NodeNext",
 		"declaration": true,
 		"emitDeclarationOnly": true,
+		"rootDir": ".",
 		"outDir": "./dist",
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
