@@ -1,0 +1,3 @@
+# Wakatime colors
+
+![](./colors.svg)

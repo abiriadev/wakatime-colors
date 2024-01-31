@@ -1,0 +1,3428 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<style type="text/css">
+			@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700');
+		</style>
+	</defs>
+	<style>
+		.f {
+			font-family: "Roboto", sans-serif;
+			font-weight: 700;
+		}
+	</style>
+	
+		<g transform="translate(0, 0)">
+			<rect width="1500" height="70" fill="#1f9aef" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Unknown Language</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1f9aef</text>
+		</g>
+	
+		<g transform="translate(0, 90)">
+			<rect width="1500" height="70" fill="#526ee8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">D2</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#526ee8</text>
+		</g>
+	
+		<g transform="translate(0, 180)">
+			<rect width="1500" height="70" fill="#00ADD8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Go Workspace</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00ADD8</text>
+		</g>
+	
+		<g transform="translate(0, 270)">
+			<rect width="1500" height="70" fill="#308888" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Hosts File</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#308888</text>
+		</g>
+	
+		<g transform="translate(0, 360)">
+			<rect width="1500" height="70" fill="#fcb32c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">MDX</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fcb32c</text>
+		</g>
+	
+		<g transform="translate(0, 450)">
+			<rect width="1500" height="70" fill="#4E9906" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Nushell</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4E9906</text>
+		</g>
+	
+		<g transform="translate(0, 540)">
+			<rect width="1500" height="70" fill="#F7A8B8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Pact</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#F7A8B8</text>
+		</g>
+	
+		<g transform="translate(0, 630)">
+			<rect width="1500" height="70" fill="#701516" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">RBS</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#701516</text>
+		</g>
+	
+		<g transform="translate(0, 720)">
+			<rect width="1500" height="70" fill="#C40023" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">TL-Verilog</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#C40023</text>
+		</g>
+	
+		<g transform="translate(0, 810)">
+			<rect width="1500" height="70" fill="#42f1f4" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">WDL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#42f1f4</text>
+		</g>
+	
+		<g transform="translate(0, 900)">
+			<rect width="1500" height="70" fill="#1a5e9a" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">WGSL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1a5e9a</text>
+		</g>
+	
+		<g transform="translate(0, 990)">
+			<rect width="1500" height="70" fill="#6250e7" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">WebAssembly Interface Type</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#6250e7</text>
+		</g>
+	
+		<g transform="translate(0, 1080)">
+			<rect width="1500" height="70" fill="#814CCC" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">1C Enterprise</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#814CCC</text>
+		</g>
+	
+		<g transform="translate(0, 1170)">
+			<rect width="1500" height="70" fill="#38761D" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">2-Dimensional Array</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#38761D</text>
+		</g>
+	
+		<g transform="translate(0, 1260)">
+			<rect width="1500" height="70" fill="#004289" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">4D</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#004289</text>
+		</g>
+	
+		<g transform="translate(0, 1350)">
+			<rect width="1500" height="70" fill="#E8274B" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ABAP</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#E8274B</text>
+		</g>
+	
+		<g transform="translate(0, 1440)">
+			<rect width="1500" height="70" fill="#555e25" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ABAP CDS</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#555e25</text>
+		</g>
+	
+		<g transform="translate(0, 1530)">
+			<rect width="1500" height="70" fill="#B9D9FF" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">AGS Script</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#B9D9FF</text>
+		</g>
+	
+		<g transform="translate(0, 1620)">
+			<rect width="1500" height="70" fill="#34EB6B" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">AIDL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#34EB6B</text>
+		</g>
+	
+		<g transform="translate(0, 1710)">
+			<rect width="1500" height="70" fill="#3AA2B5" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">AL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3AA2B5</text>
+		</g>
+	
+		<g transform="translate(0, 1800)">
+			<rect width="1500" height="70" fill="#E6EFBB" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">AMPL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#E6EFBB</text>
+		</g>
+	
+		<g transform="translate(0, 1890)">
+			<rect width="1500" height="70" fill="#9DC3FF" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ANTLR</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#9DC3FF</text>
+		</g>
+	
+		<g transform="translate(0, 1980)">
+			<rect width="1500" height="70" fill="#2ACCA8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">API Blueprint</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2ACCA8</text>
+		</g>
+	
+		<g transform="translate(0, 2070)">
+			<rect width="1500" height="70" fill="#5A8164" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">APL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#5A8164</text>
+		</g>
+	
+		<g transform="translate(0, 2160)">
+			<rect width="1500" height="70" fill="#9400ff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ASP.NET</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#9400ff</text>
+		</g>
+	
+		<g transform="translate(0, 2250)">
+			<rect width="1500" height="70" fill="#1ac620" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ATS</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1ac620</text>
+		</g>
+	
+		<g transform="translate(0, 2340)">
+			<rect width="1500" height="70" fill="#882B0F" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ActionScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#882B0F</text>
+		</g>
+	
+		<g transform="translate(0, 2430)">
+			<rect width="1500" height="70" fill="#02f88c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Ada</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#02f88c</text>
+		</g>
+	
+		<g transform="translate(0, 2520)">
+			<rect width="1500" height="70" fill="#800000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Adblock Filter List</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#800000</text>
+		</g>
+	
+		<g transform="translate(0, 2610)">
+			<rect width="1500" height="70" fill="#fa0f00" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Adobe Font Metrics</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fa0f00</text>
+		</g>
+	
+		<g transform="translate(0, 2700)">
+			<rect width="1500" height="70" fill="#315665" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Agda</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#315665</text>
+		</g>
+	
+		<g transform="translate(0, 2790)">
+			<rect width="1500" height="70" fill="#64C800" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Alloy</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#64C800</text>
+		</g>
+	
+		<g transform="translate(0, 2880)">
+			<rect width="1500" height="70" fill="#0D597F" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Alpine Abuild</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0D597F</text>
+		</g>
+	
+		<g transform="translate(0, 2970)">
+			<rect width="1500" height="70" fill="#A89663" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Altium Designer</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#A89663</text>
+		</g>
+	
+		<g transform="translate(0, 3060)">
+			<rect width="1500" height="70" fill="#C7D7DC" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">AngelScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#C7D7DC</text>
+		</g>
+	
+		<g transform="translate(0, 3150)">
+			<rect width="1500" height="70" fill="#A9157E" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Ant Build System</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#A9157E</text>
+		</g>
+	
+		<g transform="translate(0, 3240)">
+			<rect width="1500" height="70" fill="#ff269e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Antlers</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff269e</text>
+		</g>
+	
+		<g transform="translate(0, 3330)">
+			<rect width="1500" height="70" fill="#d12127" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ApacheConf</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#d12127</text>
+		</g>
+	
+		<g transform="translate(0, 3420)">
+			<rect width="1500" height="70" fill="#1797c0" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Apex</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1797c0</text>
+		</g>
+	
+		<g transform="translate(0, 3510)">
+			<rect width="1500" height="70" fill="#0B3D91" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Apollo Guidance Computer</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0B3D91</text>
+		</g>
+	
+		<g transform="translate(0, 3600)">
+			<rect width="1500" height="70" fill="#101F1F" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">AppleScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#101F1F</text>
+		</g>
+	
+		<g transform="translate(0, 3690)">
+			<rect width="1500" height="70" fill="#aa2afe" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Arc</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#aa2afe</text>
+		</g>
+	
+		<g transform="translate(0, 3780)">
+			<rect width="1500" height="70" fill="#73a0c5" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">AsciiDoc</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#73a0c5</text>
+		</g>
+	
+		<g transform="translate(0, 3870)">
+			<rect width="1500" height="70" fill="#a957b0" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">AspectJ</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#a957b0</text>
+		</g>
+	
+		<g transform="translate(0, 3960)">
+			<rect width="1500" height="70" fill="#6E4C13" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Assembly</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#6E4C13</text>
+		</g>
+	
+		<g transform="translate(0, 4050)">
+			<rect width="1500" height="70" fill="#ff5a03" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Astro</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff5a03</text>
+		</g>
+	
+		<g transform="translate(0, 4140)">
+			<rect width="1500" height="70" fill="#ff0000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Asymptote</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff0000</text>
+		</g>
+	
+		<g transform="translate(0, 4230)">
+			<rect width="1500" height="70" fill="#9CC134" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Augeas</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#9CC134</text>
+		</g>
+	
+		<g transform="translate(0, 4320)">
+			<rect width="1500" height="70" fill="#6594b9" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">AutoHotkey</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#6594b9</text>
+		</g>
+	
+		<g transform="translate(0, 4410)">
+			<rect width="1500" height="70" fill="#1C3552" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">AutoIt</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1C3552</text>
+		</g>
+	
+		<g transform="translate(0, 4500)">
+			<rect width="1500" height="70" fill="#0040FF" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Avro IDL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0040FF</text>
+		</g>
+	
+		<g transform="translate(0, 4590)">
+			<rect width="1500" height="70" fill="#c30e9b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Awk</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c30e9b</text>
+		</g>
+	
+		<g transform="translate(0, 4680)">
+			<rect width="1500" height="70" fill="#ff0000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">BASIC</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff0000</text>
+		</g>
+	
+		<g transform="translate(0, 4770)">
+			<rect width="1500" height="70" fill="#FF5000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Ballerina</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#FF5000</text>
+		</g>
+	
+		<g transform="translate(0, 4860)">
+			<rect width="1500" height="70" fill="#C1F12E" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Batchfile</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#C1F12E</text>
+		</g>
+	
+		<g transform="translate(0, 4950)">
+			<rect width="1500" height="70" fill="#a52f4e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Beef</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#a52f4e</text>
+		</g>
+	
+		<g transform="translate(0, 5040)">
+			<rect width="1500" height="70" fill="#15A13C" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Berry</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#15A13C</text>
+		</g>
+	
+		<g transform="translate(0, 5130)">
+			<rect width="1500" height="70" fill="#778899" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">BibTeX</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#778899</text>
+		</g>
+	
+		<g transform="translate(0, 5220)">
+			<rect width="1500" height="70" fill="#519aba" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Bicep</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#519aba</text>
+		</g>
+	
+		<g transform="translate(0, 5310)">
+			<rect width="1500" height="70" fill="#5562ac" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Bikeshed</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#5562ac</text>
+		</g>
+	
+		<g transform="translate(0, 5400)">
+			<rect width="1500" height="70" fill="#6A463F" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Bison</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#6A463F</text>
+		</g>
+	
+		<g transform="translate(0, 5490)">
+			<rect width="1500" height="70" fill="#00bce4" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">BitBake</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00bce4</text>
+		</g>
+	
+		<g transform="translate(0, 5580)">
+			<rect width="1500" height="70" fill="#f7523f" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Blade</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f7523f</text>
+		</g>
+	
+		<g transform="translate(0, 5670)">
+			<rect width="1500" height="70" fill="#00FFAE" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">BlitzBasic</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00FFAE</text>
+		</g>
+	
+		<g transform="translate(0, 5760)">
+			<rect width="1500" height="70" fill="#cd6400" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">BlitzMax</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#cd6400</text>
+		</g>
+	
+		<g transform="translate(0, 5850)">
+			<rect width="1500" height="70" fill="#12223c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Bluespec</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#12223c</text>
+		</g>
+	
+		<g transform="translate(0, 5940)">
+			<rect width="1500" height="70" fill="#d4bec1" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Boo</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#d4bec1</text>
+		</g>
+	
+		<g transform="translate(0, 6030)">
+			<rect width="1500" height="70" fill="#c80fa0" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Boogie</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c80fa0</text>
+		</g>
+	
+		<g transform="translate(0, 6120)">
+			<rect width="1500" height="70" fill="#2F2530" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Brainfuck</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2F2530</text>
+		</g>
+	
+		<g transform="translate(0, 6210)">
+			<rect width="1500" height="70" fill="#66AABB" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">BrighterScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#66AABB</text>
+		</g>
+	
+		<g transform="translate(0, 6300)">
+			<rect width="1500" height="70" fill="#662D91" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Brightscript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#662D91</text>
+		</g>
+	
+		<g transform="translate(0, 6390)">
+			<rect width="1500" height="70" fill="#ffd539" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Browserslist</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ffd539</text>
+		</g>
+	
+		<g transform="translate(0, 6480)">
+			<rect width="1500" height="70" fill="#555555" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">C</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#555555</text>
+		</g>
+	
+		<g transform="translate(0, 6570)">
+			<rect width="1500" height="70" fill="#178600" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">C#</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#178600</text>
+		</g>
+	
+		<g transform="translate(0, 6660)">
+			<rect width="1500" height="70" fill="#f34b7d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">C++</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f34b7d</text>
+		</g>
+	
+		<g transform="translate(0, 6750)">
+			<rect width="1500" height="70" fill="#0092d1" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">CAP CDS</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0092d1</text>
+		</g>
+	
+		<g transform="translate(0, 6840)">
+			<rect width="1500" height="70" fill="#00A300" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">CLIPS</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00A300</text>
+		</g>
+	
+		<g transform="translate(0, 6930)">
+			<rect width="1500" height="70" fill="#DA3434" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">CMake</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#DA3434</text>
+		</g>
+	
+		<g transform="translate(0, 7020)">
+			<rect width="1500" height="70" fill="#F1A42B" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">COLLADA</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#F1A42B</text>
+		</g>
+	
+		<g transform="translate(0, 7110)">
+			<rect width="1500" height="70" fill="#244776" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">CSON</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#244776</text>
+		</g>
+	
+		<g transform="translate(0, 7200)">
+			<rect width="1500" height="70" fill="#563d7c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">CSS</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#563d7c</text>
+		</g>
+	
+		<g transform="translate(0, 7290)">
+			<rect width="1500" height="70" fill="#237346" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">CSV</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#237346</text>
+		</g>
+	
+		<g transform="translate(0, 7380)">
+			<rect width="1500" height="70" fill="#5886E1" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">CUE</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#5886E1</text>
+		</g>
+	
+		<g transform="translate(0, 7470)">
+			<rect width="1500" height="70" fill="#00007a" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">CWeb</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00007a</text>
+		</g>
+	
+		<g transform="translate(0, 7560)">
+			<rect width="1500" height="70" fill="#483465" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Cabal Config</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#483465</text>
+		</g>
+	
+		<g transform="translate(0, 7650)">
+			<rect width="1500" height="70" fill="#00ef8b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Cadence</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00ef8b</text>
+		</g>
+	
+		<g transform="translate(0, 7740)">
+			<rect width="1500" height="70" fill="#ff4a48" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Cairo</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff4a48</text>
+		</g>
+	
+		<g transform="translate(0, 7830)">
+			<rect width="1500" height="70" fill="#3be133" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">CameLIGO</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3be133</text>
+		</g>
+	
+		<g transform="translate(0, 7920)">
+			<rect width="1500" height="70" fill="#c42727" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Cap'n Proto</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c42727</text>
+		</g>
+	
+		<g transform="translate(0, 8010)">
+			<rect width="1500" height="70" fill="#dfa535" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Ceylon</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#dfa535</text>
+		</g>
+	
+		<g transform="translate(0, 8100)">
+			<rect width="1500" height="70" fill="#8dc63f" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Chapel</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#8dc63f</text>
+		</g>
+	
+		<g transform="translate(0, 8190)">
+			<rect width="1500" height="70" fill="#3f8000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ChucK</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3f8000</text>
+		</g>
+	
+		<g transform="translate(0, 8280)">
+			<rect width="1500" height="70" fill="#707575" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Circom</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#707575</text>
+		</g>
+	
+		<g transform="translate(0, 8370)">
+			<rect width="1500" height="70" fill="#ccccff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Cirru</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ccccff</text>
+		</g>
+	
+		<g transform="translate(0, 8460)">
+			<rect width="1500" height="70" fill="#db901e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Clarion</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#db901e</text>
+		</g>
+	
+		<g transform="translate(0, 8550)">
+			<rect width="1500" height="70" fill="#5546ff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Clarity</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#5546ff</text>
+		</g>
+	
+		<g transform="translate(0, 8640)">
+			<rect width="1500" height="70" fill="#6a40fd" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Classic ASP</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#6a40fd</text>
+		</g>
+	
+		<g transform="translate(0, 8730)">
+			<rect width="1500" height="70" fill="#3F85AF" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Clean</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3F85AF</text>
+		</g>
+	
+		<g transform="translate(0, 8820)">
+			<rect width="1500" height="70" fill="#E4E6F3" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Click</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#E4E6F3</text>
+		</g>
+	
+		<g transform="translate(0, 8910)">
+			<rect width="1500" height="70" fill="#db5855" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Clojure</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#db5855</text>
+		</g>
+	
+		<g transform="translate(0, 9000)">
+			<rect width="1500" height="70" fill="#0d948f" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Closure Templates</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0d948f</text>
+		</g>
+	
+		<g transform="translate(0, 9090)">
+			<rect width="1500" height="70" fill="#FFA000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Cloud Firestore Security Rules</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#FFA000</text>
+		</g>
+	
+		<g transform="translate(0, 9180)">
+			<rect width="1500" height="70" fill="#140f46" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">CodeQL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#140f46</text>
+		</g>
+	
+		<g transform="translate(0, 9270)">
+			<rect width="1500" height="70" fill="#244776" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">CoffeeScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#244776</text>
+		</g>
+	
+		<g transform="translate(0, 9360)">
+			<rect width="1500" height="70" fill="#ed2cd6" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ColdFusion</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ed2cd6</text>
+		</g>
+	
+		<g transform="translate(0, 9450)">
+			<rect width="1500" height="70" fill="#ed2cd6" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ColdFusion CFC</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ed2cd6</text>
+		</g>
+	
+		<g transform="translate(0, 9540)">
+			<rect width="1500" height="70" fill="#3fb68b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Common Lisp</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3fb68b</text>
+		</g>
+	
+		<g transform="translate(0, 9630)">
+			<rect width="1500" height="70" fill="#B5314C" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Common Workflow Language</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#B5314C</text>
+		</g>
+	
+		<g transform="translate(0, 9720)">
+			<rect width="1500" height="70" fill="#B0CE4E" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Component Pascal</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#B0CE4E</text>
+		</g>
+	
+		<g transform="translate(0, 9810)">
+			<rect width="1500" height="70" fill="#d0b68c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Coq</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#d0b68c</text>
+		</g>
+	
+		<g transform="translate(0, 9900)">
+			<rect width="1500" height="70" fill="#000100" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Crystal</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#000100</text>
+		</g>
+	
+		<g transform="translate(0, 9990)">
+			<rect width="1500" height="70" fill="#1a1a1a" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Csound</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1a1a1a</text>
+		</g>
+	
+		<g transform="translate(0, 10080)">
+			<rect width="1500" height="70" fill="#1a1a1a" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Csound Document</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1a1a1a</text>
+		</g>
+	
+		<g transform="translate(0, 10170)">
+			<rect width="1500" height="70" fill="#1a1a1a" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Csound Score</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1a1a1a</text>
+		</g>
+	
+		<g transform="translate(0, 10260)">
+			<rect width="1500" height="70" fill="#3A4E3A" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Cuda</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3A4E3A</text>
+		</g>
+	
+		<g transform="translate(0, 10350)">
+			<rect width="1500" height="70" fill="#531242" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Curry</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#531242</text>
+		</g>
+	
+		<g transform="translate(0, 10440)">
+			<rect width="1500" height="70" fill="#34c0eb" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Cypher</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#34c0eb</text>
+		</g>
+	
+		<g transform="translate(0, 10530)">
+			<rect width="1500" height="70" fill="#fedf5b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Cython</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fedf5b</text>
+		</g>
+	
+		<g transform="translate(0, 10620)">
+			<rect width="1500" height="70" fill="#ba595e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">D</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ba595e</text>
+		</g>
+	
+		<g transform="translate(0, 10710)">
+			<rect width="1500" height="70" fill="#447265" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">DM</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#447265</text>
+		</g>
+	
+		<g transform="translate(0, 10800)">
+			<rect width="1500" height="70" fill="#FFEC25" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Dafny</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#FFEC25</text>
+		</g>
+	
+		<g transform="translate(0, 10890)">
+			<rect width="1500" height="70" fill="#8eff23" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Darcs Patch</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#8eff23</text>
+		</g>
+	
+		<g transform="translate(0, 10980)">
+			<rect width="1500" height="70" fill="#00B4AB" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Dart</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00B4AB</text>
+		</g>
+	
+		<g transform="translate(0, 11070)">
+			<rect width="1500" height="70" fill="#003a52" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">DataWeave</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#003a52</text>
+		</g>
+	
+		<g transform="translate(0, 11160)">
+			<rect width="1500" height="70" fill="#D70751" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Debian Package Control File</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#D70751</text>
+		</g>
+	
+		<g transform="translate(0, 11250)">
+			<rect width="1500" height="70" fill="#FBEE96" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">DenizenScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#FBEE96</text>
+		</g>
+	
+		<g transform="translate(0, 11340)">
+			<rect width="1500" height="70" fill="#dfafff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Dhall</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#dfafff</text>
+		</g>
+	
+		<g transform="translate(0, 11430)">
+			<rect width="1500" height="70" fill="#aace60" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">DirectX 3D File</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#aace60</text>
+		</g>
+	
+		<g transform="translate(0, 11520)">
+			<rect width="1500" height="70" fill="#384d54" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Dockerfile</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#384d54</text>
+		</g>
+	
+		<g transform="translate(0, 11610)">
+			<rect width="1500" height="70" fill="#cca760" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Dogescript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#cca760</text>
+		</g>
+	
+		<g transform="translate(0, 11700)">
+			<rect width="1500" height="70" fill="#e5d559" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Dotenv</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#e5d559</text>
+		</g>
+	
+		<g transform="translate(0, 11790)">
+			<rect width="1500" height="70" fill="#6c616e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Dylan</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#6c616e</text>
+		</g>
+	
+		<g transform="translate(0, 11880)">
+			<rect width="1500" height="70" fill="#ccce35" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">E</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ccce35</text>
+		</g>
+	
+		<g transform="translate(0, 11970)">
+			<rect width="1500" height="70" fill="#8a1267" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ECL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#8a1267</text>
+		</g>
+	
+		<g transform="translate(0, 12060)">
+			<rect width="1500" height="70" fill="#001d9d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ECLiPSe</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#001d9d</text>
+		</g>
+	
+		<g transform="translate(0, 12150)">
+			<rect width="1500" height="70" fill="#a91e50" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">EJS</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#a91e50</text>
+		</g>
+	
+		<g transform="translate(0, 12240)">
+			<rect width="1500" height="70" fill="#a78649" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">EQ</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#a78649</text>
+		</g>
+	
+		<g transform="translate(0, 12330)">
+			<rect width="1500" height="70" fill="#2af0ff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Earthly</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2af0ff</text>
+		</g>
+	
+		<g transform="translate(0, 12420)">
+			<rect width="1500" height="70" fill="#069406" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Easybuild</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#069406</text>
+		</g>
+	
+		<g transform="translate(0, 12510)">
+			<rect width="1500" height="70" fill="#913960" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Ecere Projects</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#913960</text>
+		</g>
+	
+		<g transform="translate(0, 12600)">
+			<rect width="1500" height="70" fill="#eb8131" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Ecmarkup</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#eb8131</text>
+		</g>
+	
+		<g transform="translate(0, 12690)">
+			<rect width="1500" height="70" fill="#fff1f2" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">EditorConfig</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fff1f2</text>
+		</g>
+	
+		<g transform="translate(0, 12780)">
+			<rect width="1500" height="70" fill="#4d6977" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Eiffel</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4d6977</text>
+		</g>
+	
+		<g transform="translate(0, 12870)">
+			<rect width="1500" height="70" fill="#6e4a7e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Elixir</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#6e4a7e</text>
+		</g>
+	
+		<g transform="translate(0, 12960)">
+			<rect width="1500" height="70" fill="#60B5CC" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Elm</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#60B5CC</text>
+		</g>
+	
+		<g transform="translate(0, 13050)">
+			<rect width="1500" height="70" fill="#55BB55" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Elvish</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#55BB55</text>
+		</g>
+	
+		<g transform="translate(0, 13140)">
+			<rect width="1500" height="70" fill="#55BB55" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Elvish Transcript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#55BB55</text>
+		</g>
+	
+		<g transform="translate(0, 13230)">
+			<rect width="1500" height="70" fill="#c065db" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Emacs Lisp</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c065db</text>
+		</g>
+	
+		<g transform="translate(0, 13320)">
+			<rect width="1500" height="70" fill="#FFF4F3" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">EmberScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#FFF4F3</text>
+		</g>
+	
+		<g transform="translate(0, 13410)">
+			<rect width="1500" height="70" fill="#B83998" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Erlang</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#B83998</text>
+		</g>
+	
+		<g transform="translate(0, 13500)">
+			<rect width="1500" height="70" fill="#FF790B" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Euphoria</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#FF790B</text>
+		</g>
+	
+		<g transform="translate(0, 13590)">
+			<rect width="1500" height="70" fill="#b845fc" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">F#</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#b845fc</text>
+		</g>
+	
+		<g transform="translate(0, 13680)">
+			<rect width="1500" height="70" fill="#572e30" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">F*</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#572e30</text>
+		</g>
+	
+		<g transform="translate(0, 13770)">
+			<rect width="1500" height="70" fill="#FFDDBB" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">FIGlet Font</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#FFDDBB</text>
+		</g>
+	
+		<g transform="translate(0, 13860)">
+			<rect width="1500" height="70" fill="#88ccff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">FLUX</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#88ccff</text>
+		</g>
+	
+		<g transform="translate(0, 13950)">
+			<rect width="1500" height="70" fill="#636746" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Factor</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#636746</text>
+		</g>
+	
+		<g transform="translate(0, 14040)">
+			<rect width="1500" height="70" fill="#7b9db4" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Fancy</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#7b9db4</text>
+		</g>
+	
+		<g transform="translate(0, 14130)">
+			<rect width="1500" height="70" fill="#14253c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Fantom</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#14253c</text>
+		</g>
+	
+		<g transform="translate(0, 14220)">
+			<rect width="1500" height="70" fill="#c37240" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Faust</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c37240</text>
+		</g>
+	
+		<g transform="translate(0, 14310)">
+			<rect width="1500" height="70" fill="#fff3d7" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Fennel</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fff3d7</text>
+		</g>
+	
+		<g transform="translate(0, 14400)">
+			<rect width="1500" height="70" fill="#F6B900" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Filebench WML</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#F6B900</text>
+		</g>
+	
+		<g transform="translate(0, 14490)">
+			<rect width="1500" height="70" fill="#ffcc33" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Fluent</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ffcc33</text>
+		</g>
+	
+		<g transform="translate(0, 14580)">
+			<rect width="1500" height="70" fill="#341708" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Forth</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#341708</text>
+		</g>
+	
+		<g transform="translate(0, 14670)">
+			<rect width="1500" height="70" fill="#4d41b1" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Fortran</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4d41b1</text>
+		</g>
+	
+		<g transform="translate(0, 14760)">
+			<rect width="1500" height="70" fill="#4d41b1" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Fortran Free Form</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4d41b1</text>
+		</g>
+	
+		<g transform="translate(0, 14850)">
+			<rect width="1500" height="70" fill="#141AC9" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">FreeBasic</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#141AC9</text>
+		</g>
+	
+		<g transform="translate(0, 14940)">
+			<rect width="1500" height="70" fill="#0050b2" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">FreeMarker</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0050b2</text>
+		</g>
+	
+		<g transform="translate(0, 15030)">
+			<rect width="1500" height="70" fill="#00cafe" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Frege</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00cafe</text>
+		</g>
+	
+		<g transform="translate(0, 15120)">
+			<rect width="1500" height="70" fill="#5f021f" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Futhark</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#5f021f</text>
+		</g>
+	
+		<g transform="translate(0, 15210)">
+			<rect width="1500" height="70" fill="#D08CF2" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">G-code</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#D08CF2</text>
+		</g>
+	
+		<g transform="translate(0, 15300)">
+			<rect width="1500" height="70" fill="#FFC766" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">GAML</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#FFC766</text>
+		</g>
+	
+		<g transform="translate(0, 15390)">
+			<rect width="1500" height="70" fill="#f49a22" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">GAMS</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f49a22</text>
+		</g>
+	
+		<g transform="translate(0, 15480)">
+			<rect width="1500" height="70" fill="#0000cc" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">GAP</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0000cc</text>
+		</g>
+	
+		<g transform="translate(0, 15570)">
+			<rect width="1500" height="70" fill="#FFCFAB" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">GCC Machine Description</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#FFCFAB</text>
+		</g>
+	
+		<g transform="translate(0, 15660)">
+			<rect width="1500" height="70" fill="#355570" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">GDScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#355570</text>
+		</g>
+	
+		<g transform="translate(0, 15750)">
+			<rect width="1500" height="70" fill="#003058" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">GEDCOM</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#003058</text>
+		</g>
+	
+		<g transform="translate(0, 15840)">
+			<rect width="1500" height="70" fill="#5686a5" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">GLSL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#5686a5</text>
+		</g>
+	
+		<g transform="translate(0, 15930)">
+			<rect width="1500" height="70" fill="#FF6800" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">GSC</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#FF6800</text>
+		</g>
+	
+		<g transform="translate(0, 16020)">
+			<rect width="1500" height="70" fill="#71b417" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Game Maker Language</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#71b417</text>
+		</g>
+	
+		<g transform="translate(0, 16110)">
+			<rect width="1500" height="70" fill="#701516" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Gemfile.lock</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#701516</text>
+		</g>
+	
+		<g transform="translate(0, 16200)">
+			<rect width="1500" height="70" fill="#ff6900" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Gemini</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff6900</text>
+		</g>
+	
+		<g transform="translate(0, 16290)">
+			<rect width="1500" height="70" fill="#63408e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Genero</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#63408e</text>
+		</g>
+	
+		<g transform="translate(0, 16380)">
+			<rect width="1500" height="70" fill="#d8df39" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Genero Forms</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#d8df39</text>
+		</g>
+	
+		<g transform="translate(0, 16470)">
+			<rect width="1500" height="70" fill="#fb855d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Genie</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fb855d</text>
+		</g>
+	
+		<g transform="translate(0, 16560)">
+			<rect width="1500" height="70" fill="#951531" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Genshi</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#951531</text>
+		</g>
+	
+		<g transform="translate(0, 16650)">
+			<rect width="1500" height="70" fill="#9400ff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Gentoo Ebuild</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#9400ff</text>
+		</g>
+	
+		<g transform="translate(0, 16740)">
+			<rect width="1500" height="70" fill="#9400ff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Gentoo Eclass</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#9400ff</text>
+		</g>
+	
+		<g transform="translate(0, 16830)">
+			<rect width="1500" height="70" fill="#d20b00" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Gerber Image</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#d20b00</text>
+		</g>
+	
+		<g transform="translate(0, 16920)">
+			<rect width="1500" height="70" fill="#5B2063" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Gherkin</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#5B2063</text>
+		</g>
+	
+		<g transform="translate(0, 17010)">
+			<rect width="1500" height="70" fill="#F44D27" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Git Attributes</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#F44D27</text>
+		</g>
+	
+		<g transform="translate(0, 17100)">
+			<rect width="1500" height="70" fill="#F44D27" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Git Config</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#F44D27</text>
+		</g>
+	
+		<g transform="translate(0, 17190)">
+			<rect width="1500" height="70" fill="#F44D27" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Git Revision List</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#F44D27</text>
+		</g>
+	
+		<g transform="translate(0, 17280)">
+			<rect width="1500" height="70" fill="#ffaff3" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Gleam</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ffaff3</text>
+		</g>
+	
+		<g transform="translate(0, 17370)">
+			<rect width="1500" height="70" fill="#c1ac7f" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Glyph</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c1ac7f</text>
+		</g>
+	
+		<g transform="translate(0, 17460)">
+			<rect width="1500" height="70" fill="#f0a9f0" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Gnuplot</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f0a9f0</text>
+		</g>
+	
+		<g transform="translate(0, 17550)">
+			<rect width="1500" height="70" fill="#00ADD8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Go</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00ADD8</text>
+		</g>
+	
+		<g transform="translate(0, 17640)">
+			<rect width="1500" height="70" fill="#00ADD8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Go Checksums</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00ADD8</text>
+		</g>
+	
+		<g transform="translate(0, 17730)">
+			<rect width="1500" height="70" fill="#00ADD8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Go Module</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00ADD8</text>
+		</g>
+	
+		<g transform="translate(0, 17820)">
+			<rect width="1500" height="70" fill="#355570" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Godot Resource</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#355570</text>
+		</g>
+	
+		<g transform="translate(0, 17910)">
+			<rect width="1500" height="70" fill="#88562A" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Golo</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#88562A</text>
+		</g>
+	
+		<g transform="translate(0, 18000)">
+			<rect width="1500" height="70" fill="#82937f" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Gosu</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#82937f</text>
+		</g>
+	
+		<g transform="translate(0, 18090)">
+			<rect width="1500" height="70" fill="#615f8b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Grace</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#615f8b</text>
+		</g>
+	
+		<g transform="translate(0, 18180)">
+			<rect width="1500" height="70" fill="#02303a" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Gradle</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#02303a</text>
+		</g>
+	
+		<g transform="translate(0, 18270)">
+			<rect width="1500" height="70" fill="#ff0000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Grammatical Framework</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff0000</text>
+		</g>
+	
+		<g transform="translate(0, 18360)">
+			<rect width="1500" height="70" fill="#e10098" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">GraphQL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#e10098</text>
+		</g>
+	
+		<g transform="translate(0, 18450)">
+			<rect width="1500" height="70" fill="#2596be" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Graphviz (DOT)</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2596be</text>
+		</g>
+	
+		<g transform="translate(0, 18540)">
+			<rect width="1500" height="70" fill="#4298b8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Groovy</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4298b8</text>
+		</g>
+	
+		<g transform="translate(0, 18630)">
+			<rect width="1500" height="70" fill="#4298b8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Groovy Server Pages</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4298b8</text>
+		</g>
+	
+		<g transform="translate(0, 18720)">
+			<rect width="1500" height="70" fill="#106da9" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">HAProxy</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#106da9</text>
+		</g>
+	
+		<g transform="translate(0, 18810)">
+			<rect width="1500" height="70" fill="#844FBA" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">HCL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#844FBA</text>
+		</g>
+	
+		<g transform="translate(0, 18900)">
+			<rect width="1500" height="70" fill="#aace60" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">HLSL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#aace60</text>
+		</g>
+	
+		<g transform="translate(0, 18990)">
+			<rect width="1500" height="70" fill="#9ff8ee" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">HOCON</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#9ff8ee</text>
+		</g>
+	
+		<g transform="translate(0, 19080)">
+			<rect width="1500" height="70" fill="#e34c26" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">HTML</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#e34c26</text>
+		</g>
+	
+		<g transform="translate(0, 19170)">
+			<rect width="1500" height="70" fill="#2e1052" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">HTML+ECR</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2e1052</text>
+		</g>
+	
+		<g transform="translate(0, 19260)">
+			<rect width="1500" height="70" fill="#6e4a7e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">HTML+EEX</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#6e4a7e</text>
+		</g>
+	
+		<g transform="translate(0, 19350)">
+			<rect width="1500" height="70" fill="#701516" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">HTML+ERB</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#701516</text>
+		</g>
+	
+		<g transform="translate(0, 19440)">
+			<rect width="1500" height="70" fill="#4f5d95" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">HTML+PHP</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4f5d95</text>
+		</g>
+	
+		<g transform="translate(0, 19530)">
+			<rect width="1500" height="70" fill="#512be4" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">HTML+Razor</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#512be4</text>
+		</g>
+	
+		<g transform="translate(0, 19620)">
+			<rect width="1500" height="70" fill="#005C9C" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">HTTP</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#005C9C</text>
+		</g>
+	
+		<g transform="translate(0, 19710)">
+			<rect width="1500" height="70" fill="#f68712" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">HXML</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f68712</text>
+		</g>
+	
+		<g transform="translate(0, 19800)">
+			<rect width="1500" height="70" fill="#878787" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Hack</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#878787</text>
+		</g>
+	
+		<g transform="translate(0, 19890)">
+			<rect width="1500" height="70" fill="#ece2a9" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Haml</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ece2a9</text>
+		</g>
+	
+		<g transform="translate(0, 19980)">
+			<rect width="1500" height="70" fill="#f7931e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Handlebars</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f7931e</text>
+		</g>
+	
+		<g transform="translate(0, 20070)">
+			<rect width="1500" height="70" fill="#0e60e3" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Harbour</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0e60e3</text>
+		</g>
+	
+		<g transform="translate(0, 20160)">
+			<rect width="1500" height="70" fill="#5e5086" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Haskell</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#5e5086</text>
+		</g>
+	
+		<g transform="translate(0, 20250)">
+			<rect width="1500" height="70" fill="#df7900" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Haxe</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#df7900</text>
+		</g>
+	
+		<g transform="translate(0, 20340)">
+			<rect width="1500" height="70" fill="#dce200" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">HiveQL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#dce200</text>
+		</g>
+	
+		<g transform="translate(0, 20430)">
+			<rect width="1500" height="70" fill="#ffefaf" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">HolyC</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ffefaf</text>
+		</g>
+	
+		<g transform="translate(0, 20520)">
+			<rect width="1500" height="70" fill="#7790B2" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Hy</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#7790B2</text>
+		</g>
+	
+		<g transform="translate(0, 20610)">
+			<rect width="1500" height="70" fill="#a3522f" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">IDL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#a3522f</text>
+		</g>
+	
+		<g transform="translate(0, 20700)">
+			<rect width="1500" height="70" fill="#0000cc" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">IGOR Pro</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0000cc</text>
+		</g>
+	
+		<g transform="translate(0, 20790)">
+			<rect width="1500" height="70" fill="#d1dbe0" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">INI</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#d1dbe0</text>
+		</g>
+	
+		<g transform="translate(0, 20880)">
+			<rect width="1500" height="70" fill="#b30000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Idris</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#b30000</text>
+		</g>
+	
+		<g transform="translate(0, 20970)">
+			<rect width="1500" height="70" fill="#000000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Ignore List</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#000000</text>
+		</g>
+	
+		<g transform="translate(0, 21060)">
+			<rect width="1500" height="70" fill="#99AAFF" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ImageJ Macro</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#99AAFF</text>
+		</g>
+	
+		<g transform="translate(0, 21150)">
+			<rect width="1500" height="70" fill="#16cec6" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Imba</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#16cec6</text>
+		</g>
+	
+		<g transform="translate(0, 21240)">
+			<rect width="1500" height="70" fill="#264b99" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Inno Setup</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#264b99</text>
+		</g>
+	
+		<g transform="translate(0, 21330)">
+			<rect width="1500" height="70" fill="#a9188d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Io</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#a9188d</text>
+		</g>
+	
+		<g transform="translate(0, 21420)">
+			<rect width="1500" height="70" fill="#078193" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Ioke</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#078193</text>
+		</g>
+	
+		<g transform="translate(0, 21510)">
+			<rect width="1500" height="70" fill="#FEFE00" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Isabelle</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#FEFE00</text>
+		</g>
+	
+		<g transform="translate(0, 21600)">
+			<rect width="1500" height="70" fill="#FEFE00" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Isabelle ROOT</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#FEFE00</text>
+		</g>
+	
+		<g transform="translate(0, 21690)">
+			<rect width="1500" height="70" fill="#9EEDFF" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">J</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#9EEDFF</text>
+		</g>
+	
+		<g transform="translate(0, 21780)">
+			<rect width="1500" height="70" fill="#b07219" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">JAR Manifest</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#b07219</text>
+		</g>
+	
+		<g transform="translate(0, 21870)">
+			<rect width="1500" height="70" fill="#d90e09" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">JCL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#d90e09</text>
+		</g>
+	
+		<g transform="translate(0, 21960)">
+			<rect width="1500" height="70" fill="#DBCA00" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">JFlex</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#DBCA00</text>
+		</g>
+	
+		<g transform="translate(0, 22050)">
+			<rect width="1500" height="70" fill="#292929" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">JSON</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#292929</text>
+		</g>
+	
+		<g transform="translate(0, 22140)">
+			<rect width="1500" height="70" fill="#292929" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">JSON with Comments</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#292929</text>
+		</g>
+	
+		<g transform="translate(0, 22230)">
+			<rect width="1500" height="70" fill="#267CB9" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">JSON5</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#267CB9</text>
+		</g>
+	
+		<g transform="translate(0, 22320)">
+			<rect width="1500" height="70" fill="#0c479c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">JSONLD</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0c479c</text>
+		</g>
+	
+		<g transform="translate(0, 22410)">
+			<rect width="1500" height="70" fill="#40d47e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">JSONiq</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#40d47e</text>
+		</g>
+	
+		<g transform="translate(0, 22500)">
+			<rect width="1500" height="70" fill="#0886a5" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Janet</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0886a5</text>
+		</g>
+	
+		<g transform="translate(0, 22590)">
+			<rect width="1500" height="70" fill="#d03600" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Jasmin</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#d03600</text>
+		</g>
+	
+		<g transform="translate(0, 22680)">
+			<rect width="1500" height="70" fill="#b07219" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Java</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#b07219</text>
+		</g>
+	
+		<g transform="translate(0, 22770)">
+			<rect width="1500" height="70" fill="#2A6277" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Java Properties</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2A6277</text>
+		</g>
+	
+		<g transform="translate(0, 22860)">
+			<rect width="1500" height="70" fill="#2A6277" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Java Server Pages</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2A6277</text>
+		</g>
+	
+		<g transform="translate(0, 22950)">
+			<rect width="1500" height="70" fill="#f1e05a" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">JavaScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f1e05a</text>
+		</g>
+	
+		<g transform="translate(0, 23040)">
+			<rect width="1500" height="70" fill="#f1e05a" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">JavaScript+ERB</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f1e05a</text>
+		</g>
+	
+		<g transform="translate(0, 23130)">
+			<rect width="1500" height="70" fill="#15c213" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Jest Snapshot</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#15c213</text>
+		</g>
+	
+		<g transform="translate(0, 23220)">
+			<rect width="1500" height="70" fill="#21D789" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">JetBrains MPS</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#21D789</text>
+		</g>
+	
+		<g transform="translate(0, 23310)">
+			<rect width="1500" height="70" fill="#a52a22" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Jinja</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#a52a22</text>
+		</g>
+	
+		<g transform="translate(0, 23400)">
+			<rect width="1500" height="70" fill="#56b3cb" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Jison</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#56b3cb</text>
+		</g>
+	
+		<g transform="translate(0, 23490)">
+			<rect width="1500" height="70" fill="#56b3cb" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Jison Lex</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#56b3cb</text>
+		</g>
+	
+		<g transform="translate(0, 23580)">
+			<rect width="1500" height="70" fill="#843179" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Jolie</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#843179</text>
+		</g>
+	
+		<g transform="translate(0, 23670)">
+			<rect width="1500" height="70" fill="#0064bd" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Jsonnet</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0064bd</text>
+		</g>
+	
+		<g transform="translate(0, 23760)">
+			<rect width="1500" height="70" fill="#a270ba" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Julia</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#a270ba</text>
+		</g>
+	
+		<g transform="translate(0, 23850)">
+			<rect width="1500" height="70" fill="#DA5B0B" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Jupyter Notebook</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#DA5B0B</text>
+		</g>
+	
+		<g transform="translate(0, 23940)">
+			<rect width="1500" height="70" fill="#384d54" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Just</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#384d54</text>
+		</g>
+	
+		<g transform="translate(0, 24030)">
+			<rect width="1500" height="70" fill="#28430A" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">KRL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#28430A</text>
+		</g>
+	
+		<g transform="translate(0, 24120)">
+			<rect width="1500" height="70" fill="#773b37" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Kaitai Struct</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#773b37</text>
+		</g>
+	
+		<g transform="translate(0, 24210)">
+			<rect width="1500" height="70" fill="#6f8042" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">KakouneScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#6f8042</text>
+		</g>
+	
+		<g transform="translate(0, 24300)">
+			<rect width="1500" height="70" fill="#41adf0" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">KerboScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#41adf0</text>
+		</g>
+	
+		<g transform="translate(0, 24390)">
+			<rect width="1500" height="70" fill="#2f4aab" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">KiCad Layout</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2f4aab</text>
+		</g>
+	
+		<g transform="translate(0, 24480)">
+			<rect width="1500" height="70" fill="#2f4aab" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">KiCad Legacy Layout</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2f4aab</text>
+		</g>
+	
+		<g transform="translate(0, 24570)">
+			<rect width="1500" height="70" fill="#2f4aab" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">KiCad Schematic</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2f4aab</text>
+		</g>
+	
+		<g transform="translate(0, 24660)">
+			<rect width="1500" height="70" fill="#A97BFF" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Kotlin</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#A97BFF</text>
+		</g>
+	
+		<g transform="translate(0, 24750)">
+			<rect width="1500" height="70" fill="#4C3023" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">LFE</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4C3023</text>
+		</g>
+	
+		<g transform="translate(0, 24840)">
+			<rect width="1500" height="70" fill="#185619" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">LLVM</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#185619</text>
+		</g>
+	
+		<g transform="translate(0, 24930)">
+			<rect width="1500" height="70" fill="#cc9900" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">LOLCODE</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#cc9900</text>
+		</g>
+	
+		<g transform="translate(0, 25020)">
+			<rect width="1500" height="70" fill="#3d9970" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">LSL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3d9970</text>
+		</g>
+	
+		<g transform="translate(0, 25110)">
+			<rect width="1500" height="70" fill="#fede06" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">LabVIEW</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fede06</text>
+		</g>
+	
+		<g transform="translate(0, 25200)">
+			<rect width="1500" height="70" fill="#2980B9" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Lark</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2980B9</text>
+		</g>
+	
+		<g transform="translate(0, 25290)">
+			<rect width="1500" height="70" fill="#999999" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Lasso</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#999999</text>
+		</g>
+	
+		<g transform="translate(0, 25380)">
+			<rect width="1500" height="70" fill="#f2a542" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Latte</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f2a542</text>
+		</g>
+	
+		<g transform="translate(0, 25470)">
+			<rect width="1500" height="70" fill="#1d365d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Less</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1d365d</text>
+		</g>
+	
+		<g transform="translate(0, 25560)">
+			<rect width="1500" height="70" fill="#DBCA00" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Lex</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#DBCA00</text>
+		</g>
+	
+		<g transform="translate(0, 25650)">
+			<rect width="1500" height="70" fill="#0e74ff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">LigoLANG</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0e74ff</text>
+		</g>
+	
+		<g transform="translate(0, 25740)">
+			<rect width="1500" height="70" fill="#9ccc7c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">LilyPond</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#9ccc7c</text>
+		</g>
+	
+		<g transform="translate(0, 25830)">
+			<rect width="1500" height="70" fill="#67b8de" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Liquid</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#67b8de</text>
+		</g>
+	
+		<g transform="translate(0, 25920)">
+			<rect width="1500" height="70" fill="#315665" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Literate Agda</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#315665</text>
+		</g>
+	
+		<g transform="translate(0, 26010)">
+			<rect width="1500" height="70" fill="#244776" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Literate CoffeeScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#244776</text>
+		</g>
+	
+		<g transform="translate(0, 26100)">
+			<rect width="1500" height="70" fill="#5e5086" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Literate Haskell</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#5e5086</text>
+		</g>
+	
+		<g transform="translate(0, 26190)">
+			<rect width="1500" height="70" fill="#499886" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">LiveScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#499886</text>
+		</g>
+	
+		<g transform="translate(0, 26280)">
+			<rect width="1500" height="70" fill="#295b9a" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Logtalk</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#295b9a</text>
+		</g>
+	
+		<g transform="translate(0, 26370)">
+			<rect width="1500" height="70" fill="#652B81" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">LookML</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#652B81</text>
+		</g>
+	
+		<g transform="translate(0, 26460)">
+			<rect width="1500" height="70" fill="#000080" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Lua</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#000080</text>
+		</g>
+	
+		<g transform="translate(0, 26550)">
+			<rect width="1500" height="70" fill="#e16737" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">MATLAB</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#e16737</text>
+		</g>
+	
+		<g transform="translate(0, 26640)">
+			<rect width="1500" height="70" fill="#00a6a6" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">MAXScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00a6a6</text>
+		</g>
+	
+		<g transform="translate(0, 26730)">
+			<rect width="1500" height="70" fill="#5EC8DB" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">MLIR</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#5EC8DB</text>
+		</g>
+	
+		<g transform="translate(0, 26820)">
+			<rect width="1500" height="70" fill="#62A8D6" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">MQL4</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#62A8D6</text>
+		</g>
+	
+		<g transform="translate(0, 26910)">
+			<rect width="1500" height="70" fill="#4A76B8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">MQL5</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4A76B8</text>
+		</g>
+	
+		<g transform="translate(0, 27000)">
+			<rect width="1500" height="70" fill="#b7e1f4" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">MTML</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#b7e1f4</text>
+		</g>
+	
+		<g transform="translate(0, 27090)">
+			<rect width="1500" height="70" fill="#d8ffff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Macaulay2</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#d8ffff</text>
+		</g>
+	
+		<g transform="translate(0, 27180)">
+			<rect width="1500" height="70" fill="#427819" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Makefile</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#427819</text>
+		</g>
+	
+		<g transform="translate(0, 27270)">
+			<rect width="1500" height="70" fill="#7e858d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Mako</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#7e858d</text>
+		</g>
+	
+		<g transform="translate(0, 27360)">
+			<rect width="1500" height="70" fill="#083fa1" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Markdown</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#083fa1</text>
+		</g>
+	
+		<g transform="translate(0, 27450)">
+			<rect width="1500" height="70" fill="#42bff2" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Marko</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#42bff2</text>
+		</g>
+	
+		<g transform="translate(0, 27540)">
+			<rect width="1500" height="70" fill="#f97732" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Mask</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f97732</text>
+		</g>
+	
+		<g transform="translate(0, 27630)">
+			<rect width="1500" height="70" fill="#dd1100" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Mathematica</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#dd1100</text>
+		</g>
+	
+		<g transform="translate(0, 27720)">
+			<rect width="1500" height="70" fill="#c4a79c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Max</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c4a79c</text>
+		</g>
+	
+		<g transform="translate(0, 27810)">
+			<rect width="1500" height="70" fill="#ff2b2b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Mercury</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff2b2b</text>
+		</g>
+	
+		<g transform="translate(0, 27900)">
+			<rect width="1500" height="70" fill="#ff3670" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Mermaid</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff3670</text>
+		</g>
+	
+		<g transform="translate(0, 27990)">
+			<rect width="1500" height="70" fill="#007800" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Meson</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#007800</text>
+		</g>
+	
+		<g transform="translate(0, 28080)">
+			<rect width="1500" height="70" fill="#8f14e9" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Metal</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#8f14e9</text>
+		</g>
+	
+		<g transform="translate(0, 28170)">
+			<rect width="1500" height="70" fill="#ff1111" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">MiniYAML</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff1111</text>
+		</g>
+	
+		<g transform="translate(0, 28260)">
+			<rect width="1500" height="70" fill="#02b046" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Mint</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#02b046</text>
+		</g>
+	
+		<g transform="translate(0, 28350)">
+			<rect width="1500" height="70" fill="#c7a938" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Mirah</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c7a938</text>
+		</g>
+	
+		<g transform="translate(0, 28440)">
+			<rect width="1500" height="70" fill="#de1d31" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Modelica</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#de1d31</text>
+		</g>
+	
+		<g transform="translate(0, 28530)">
+			<rect width="1500" height="70" fill="#10253f" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Modula-2</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#10253f</text>
+		</g>
+	
+		<g transform="translate(0, 28620)">
+			<rect width="1500" height="70" fill="#223388" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Modula-3</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#223388</text>
+		</g>
+	
+		<g transform="translate(0, 28710)">
+			<rect width="1500" height="70" fill="#8D6747" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Monkey C</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#8D6747</text>
+		</g>
+	
+		<g transform="translate(0, 28800)">
+			<rect width="1500" height="70" fill="#ff4585" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">MoonScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff4585</text>
+		</g>
+	
+		<g transform="translate(0, 28890)">
+			<rect width="1500" height="70" fill="#fbb03b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Motoko</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fbb03b</text>
+		</g>
+	
+		<g transform="translate(0, 28980)">
+			<rect width="1500" height="70" fill="#005daa" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Motorola 68K Assembly</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#005daa</text>
+		</g>
+	
+		<g transform="translate(0, 29070)">
+			<rect width="1500" height="70" fill="#4a137a" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Move</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4a137a</text>
+		</g>
+	
+		<g transform="translate(0, 29160)">
+			<rect width="1500" height="70" fill="#724b3b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Mustache</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#724b3b</text>
+		</g>
+	
+		<g transform="translate(0, 29250)">
+			<rect width="1500" height="70" fill="#28431f" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">NCL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#28431f</text>
+		</g>
+	
+		<g transform="translate(0, 29340)">
+			<rect width="1500" height="70" fill="#cb3837" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">NPM Config</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#cb3837</text>
+		</g>
+	
+		<g transform="translate(0, 29430)">
+			<rect width="1500" height="70" fill="#111522" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">NWScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#111522</text>
+		</g>
+	
+		<g transform="translate(0, 29520)">
+			<rect width="1500" height="70" fill="#1d2c4e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Nasal</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1d2c4e</text>
+		</g>
+	
+		<g transform="translate(0, 29610)">
+			<rect width="1500" height="70" fill="#990000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Nearley</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#990000</text>
+		</g>
+	
+		<g transform="translate(0, 29700)">
+			<rect width="1500" height="70" fill="#3d3c6e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Nemerle</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3d3c6e</text>
+		</g>
+	
+		<g transform="translate(0, 29790)">
+			<rect width="1500" height="70" fill="#0aa0ff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">NetLinx</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0aa0ff</text>
+		</g>
+	
+		<g transform="translate(0, 29880)">
+			<rect width="1500" height="70" fill="#747faa" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">NetLinx+ERB</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#747faa</text>
+		</g>
+	
+		<g transform="translate(0, 29970)">
+			<rect width="1500" height="70" fill="#ff6375" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">NetLogo</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff6375</text>
+		</g>
+	
+		<g transform="translate(0, 30060)">
+			<rect width="1500" height="70" fill="#87AED7" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">NewLisp</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#87AED7</text>
+		</g>
+	
+		<g transform="translate(0, 30150)">
+			<rect width="1500" height="70" fill="#3ac486" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Nextflow</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3ac486</text>
+		</g>
+	
+		<g transform="translate(0, 30240)">
+			<rect width="1500" height="70" fill="#009639" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Nginx</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#009639</text>
+		</g>
+	
+		<g transform="translate(0, 30330)">
+			<rect width="1500" height="70" fill="#ffc200" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Nim</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ffc200</text>
+		</g>
+	
+		<g transform="translate(0, 30420)">
+			<rect width="1500" height="70" fill="#009917" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Nit</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#009917</text>
+		</g>
+	
+		<g transform="translate(0, 30510)">
+			<rect width="1500" height="70" fill="#7e7eff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Nix</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#7e7eff</text>
+		</g>
+	
+		<g transform="translate(0, 30600)">
+			<rect width="1500" height="70" fill="#c9df40" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Nu</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c9df40</text>
+		</g>
+	
+		<g transform="translate(0, 30690)">
+			<rect width="1500" height="70" fill="#9C8AF9" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">NumPy</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#9C8AF9</text>
+		</g>
+	
+		<g transform="translate(0, 30780)">
+			<rect width="1500" height="70" fill="#3d8137" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Nunjucks</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3d8137</text>
+		</g>
+	
+		<g transform="translate(0, 30870)">
+			<rect width="1500" height="70" fill="#85ea2d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">OASv2-json</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#85ea2d</text>
+		</g>
+	
+		<g transform="translate(0, 30960)">
+			<rect width="1500" height="70" fill="#85ea2d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">OASv2-yaml</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#85ea2d</text>
+		</g>
+	
+		<g transform="translate(0, 31050)">
+			<rect width="1500" height="70" fill="#85ea2d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">OASv3-json</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#85ea2d</text>
+		</g>
+	
+		<g transform="translate(0, 31140)">
+			<rect width="1500" height="70" fill="#85ea2d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">OASv3-yaml</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#85ea2d</text>
+		</g>
+	
+		<g transform="translate(0, 31230)">
+			<rect width="1500" height="70" fill="#424893" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ObjectScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#424893</text>
+		</g>
+	
+		<g transform="translate(0, 31320)">
+			<rect width="1500" height="70" fill="#438eff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Objective-C</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#438eff</text>
+		</g>
+	
+		<g transform="translate(0, 31410)">
+			<rect width="1500" height="70" fill="#6866fb" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Objective-C++</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#6866fb</text>
+		</g>
+	
+		<g transform="translate(0, 31500)">
+			<rect width="1500" height="70" fill="#ff0c5a" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Objective-J</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff0c5a</text>
+		</g>
+	
+		<g transform="translate(0, 31590)">
+			<rect width="1500" height="70" fill="#60AFFE" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Odin</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#60AFFE</text>
+		</g>
+	
+		<g transform="translate(0, 31680)">
+			<rect width="1500" height="70" fill="#cabbff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Omgrofl</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#cabbff</text>
+		</g>
+	
+		<g transform="translate(0, 31770)">
+			<rect width="1500" height="70" fill="#ef7a08" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">OCaml</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ef7a08</text>
+		</g>
+	
+		<g transform="translate(0, 31860)">
+			<rect width="1500" height="70" fill="#f7ede0" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Opal</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f7ede0</text>
+		</g>
+	
+		<g transform="translate(0, 31950)">
+			<rect width="1500" height="70" fill="#7d9199" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Open Policy Agent</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#7d9199</text>
+		</g>
+	
+		<g transform="translate(0, 32040)">
+			<rect width="1500" height="70" fill="#85ea2d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">OpenAPI Specification v2</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#85ea2d</text>
+		</g>
+	
+		<g transform="translate(0, 32130)">
+			<rect width="1500" height="70" fill="#85ea2d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">OpenAPI Specification v3</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#85ea2d</text>
+		</g>
+	
+		<g transform="translate(0, 32220)">
+			<rect width="1500" height="70" fill="#ed2e2d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">OpenCL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ed2e2d</text>
+		</g>
+	
+		<g transform="translate(0, 32310)">
+			<rect width="1500" height="70" fill="#5ce600" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">OpenEdge ABL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#5ce600</text>
+		</g>
+	
+		<g transform="translate(0, 32400)">
+			<rect width="1500" height="70" fill="#AA70FF" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">OpenQASM</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#AA70FF</text>
+		</g>
+	
+		<g transform="translate(0, 32490)">
+			<rect width="1500" height="70" fill="#e5cd45" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">OpenSCAD</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#e5cd45</text>
+		</g>
+	
+		<g transform="translate(0, 32580)">
+			<rect width="1500" height="70" fill="#476732" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Option List</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#476732</text>
+		</g>
+	
+		<g transform="translate(0, 32670)">
+			<rect width="1500" height="70" fill="#77aa99" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Org</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#77aa99</text>
+		</g>
+	
+		<g transform="translate(0, 32760)">
+			<rect width="1500" height="70" fill="#cdd0e3" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Oxygene</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#cdd0e3</text>
+		</g>
+	
+		<g transform="translate(0, 32850)">
+			<rect width="1500" height="70" fill="#fab738" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Oz</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fab738</text>
+		</g>
+	
+		<g transform="translate(0, 32940)">
+			<rect width="1500" height="70" fill="#7055b5" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">P4</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#7055b5</text>
+		</g>
+	
+		<g transform="translate(0, 33030)">
+			<rect width="1500" height="70" fill="#0d00ff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PDDL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0d00ff</text>
+		</g>
+	
+		<g transform="translate(0, 33120)">
+			<rect width="1500" height="70" fill="#234d6b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PEG.js</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#234d6b</text>
+		</g>
+	
+		<g transform="translate(0, 33210)">
+			<rect width="1500" height="70" fill="#4F5D95" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PHP</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4F5D95</text>
+		</g>
+	
+		<g transform="translate(0, 33300)">
+			<rect width="1500" height="70" fill="#dad8d8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PLSQL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#dad8d8</text>
+		</g>
+	
+		<g transform="translate(0, 33390)">
+			<rect width="1500" height="70" fill="#336790" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PLpgSQL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#336790</text>
+		</g>
+	
+		<g transform="translate(0, 33480)">
+			<rect width="1500" height="70" fill="#6bac65" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">POV-Ray SDL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#6bac65</text>
+		</g>
+	
+		<g transform="translate(0, 33570)">
+			<rect width="1500" height="70" fill="#cc0000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Pan</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#cc0000</text>
+		</g>
+	
+		<g transform="translate(0, 33660)">
+			<rect width="1500" height="70" fill="#6600cc" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Papyrus</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#6600cc</text>
+		</g>
+	
+		<g transform="translate(0, 33750)">
+			<rect width="1500" height="70" fill="#f3ca0a" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Parrot</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f3ca0a</text>
+		</g>
+	
+		<g transform="translate(0, 33840)">
+			<rect width="1500" height="70" fill="#E3F171" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Pascal</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#E3F171</text>
+		</g>
+	
+		<g transform="translate(0, 33930)">
+			<rect width="1500" height="70" fill="#dbb284" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Pawn</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#dbb284</text>
+		</g>
+	
+		<g transform="translate(0, 34020)">
+			<rect width="1500" height="70" fill="#C76F5B" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Pep8</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#C76F5B</text>
+		</g>
+	
+		<g transform="translate(0, 34110)">
+			<rect width="1500" height="70" fill="#0298c3" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Perl</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0298c3</text>
+		</g>
+	
+		<g transform="translate(0, 34200)">
+			<rect width="1500" height="70" fill="#6067af" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PicoLisp</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#6067af</text>
+		</g>
+	
+		<g transform="translate(0, 34290)">
+			<rect width="1500" height="70" fill="#fcd7de" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PigLatin</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fcd7de</text>
+		</g>
+	
+		<g transform="translate(0, 34380)">
+			<rect width="1500" height="70" fill="#005390" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Pike</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#005390</text>
+		</g>
+	
+		<g transform="translate(0, 34470)">
+			<rect width="1500" height="70" fill="#fbbd16" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PlantUML</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fbbd16</text>
+		</g>
+	
+		<g transform="translate(0, 34560)">
+			<rect width="1500" height="70" fill="#d80074" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PogoScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#d80074</text>
+		</g>
+	
+		<g transform="translate(0, 34650)">
+			<rect width="1500" height="70" fill="#ae81ff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Polar</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ae81ff</text>
+		</g>
+	
+		<g transform="translate(0, 34740)">
+			<rect width="1500" height="70" fill="#f8bd00" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Portugol</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f8bd00</text>
+		</g>
+	
+		<g transform="translate(0, 34830)">
+			<rect width="1500" height="70" fill="#dc3a0c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PostCSS</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#dc3a0c</text>
+		</g>
+	
+		<g transform="translate(0, 34920)">
+			<rect width="1500" height="70" fill="#da291c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PostScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#da291c</text>
+		</g>
+	
+		<g transform="translate(0, 35010)">
+			<rect width="1500" height="70" fill="#8f0f8d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PowerBuilder</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#8f0f8d</text>
+		</g>
+	
+		<g transform="translate(0, 35100)">
+			<rect width="1500" height="70" fill="#012456" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PowerShell</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#012456</text>
+		</g>
+	
+		<g transform="translate(0, 35190)">
+			<rect width="1500" height="70" fill="#0c344b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Prisma</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0c344b</text>
+		</g>
+	
+		<g transform="translate(0, 35280)">
+			<rect width="1500" height="70" fill="#0096D8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Processing</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0096D8</text>
+		</g>
+	
+		<g transform="translate(0, 35370)">
+			<rect width="1500" height="70" fill="#3B2F63" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Procfile</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3B2F63</text>
+		</g>
+	
+		<g transform="translate(0, 35460)">
+			<rect width="1500" height="70" fill="#74283c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Prolog</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#74283c</text>
+		</g>
+	
+		<g transform="translate(0, 35550)">
+			<rect width="1500" height="70" fill="#de0000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Promela</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#de0000</text>
+		</g>
+	
+		<g transform="translate(0, 35640)">
+			<rect width="1500" height="70" fill="#7fa2a7" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Propeller Spin</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#7fa2a7</text>
+		</g>
+	
+		<g transform="translate(0, 35730)">
+			<rect width="1500" height="70" fill="#a86454" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Pug</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#a86454</text>
+		</g>
+	
+		<g transform="translate(0, 35820)">
+			<rect width="1500" height="70" fill="#302B6D" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Puppet</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#302B6D</text>
+		</g>
+	
+		<g transform="translate(0, 35910)">
+			<rect width="1500" height="70" fill="#5a6986" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PureBasic</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#5a6986</text>
+		</g>
+	
+		<g transform="translate(0, 36000)">
+			<rect width="1500" height="70" fill="#1D222D" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">PureScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1D222D</text>
+		</g>
+	
+		<g transform="translate(0, 36090)">
+			<rect width="1500" height="70" fill="#ee1e10" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Pyret</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ee1e10</text>
+		</g>
+	
+		<g transform="translate(0, 36180)">
+			<rect width="1500" height="70" fill="#3572A5" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Python</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3572A5</text>
+		</g>
+	
+		<g transform="translate(0, 36270)">
+			<rect width="1500" height="70" fill="#3572A5" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Python console</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3572A5</text>
+		</g>
+	
+		<g transform="translate(0, 36360)">
+			<rect width="1500" height="70" fill="#3572A5" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Python traceback</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3572A5</text>
+		</g>
+	
+		<g transform="translate(0, 36450)">
+			<rect width="1500" height="70" fill="#fed659" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Q#</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fed659</text>
+		</g>
+	
+		<g transform="translate(0, 36540)">
+			<rect width="1500" height="70" fill="#44a51c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">QML</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#44a51c</text>
+		</g>
+	
+		<g transform="translate(0, 36630)">
+			<rect width="1500" height="70" fill="#00b841" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Qt Script</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00b841</text>
+		</g>
+	
+		<g transform="translate(0, 36720)">
+			<rect width="1500" height="70" fill="#882233" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Quake</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#882233</text>
+		</g>
+	
+		<g transform="translate(0, 36810)">
+			<rect width="1500" height="70" fill="#198CE7" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">R</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#198CE7</text>
+		</g>
+	
+		<g transform="translate(0, 36900)">
+			<rect width="1500" height="70" fill="#77d9fb" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">RAML</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#77d9fb</text>
+		</g>
+	
+		<g transform="translate(0, 36990)">
+			<rect width="1500" height="70" fill="#701516" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">RDoc</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#701516</text>
+		</g>
+	
+		<g transform="translate(0, 37080)">
+			<rect width="1500" height="70" fill="#d90e09" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">REXX</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#d90e09</text>
+		</g>
+	
+		<g transform="translate(0, 37170)">
+			<rect width="1500" height="70" fill="#198ce7" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">RMarkdown</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#198ce7</text>
+		</g>
+	
+		<g transform="translate(0, 37260)">
+			<rect width="1500" height="70" fill="#2BDE21" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">RPGLE</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2BDE21</text>
+		</g>
+	
+		<g transform="translate(0, 37350)">
+			<rect width="1500" height="70" fill="#665a4e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">RUNOFF</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#665a4e</text>
+		</g>
+	
+		<g transform="translate(0, 37440)">
+			<rect width="1500" height="70" fill="#3c5caa" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Racket</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3c5caa</text>
+		</g>
+	
+		<g transform="translate(0, 37530)">
+			<rect width="1500" height="70" fill="#9d5200" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Ragel</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#9d5200</text>
+		</g>
+	
+		<g transform="translate(0, 37620)">
+			<rect width="1500" height="70" fill="#0000fb" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Raku</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0000fb</text>
+		</g>
+	
+		<g transform="translate(0, 37710)">
+			<rect width="1500" height="70" fill="#fffaa0" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Rascal</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fffaa0</text>
+		</g>
+	
+		<g transform="translate(0, 37800)">
+			<rect width="1500" height="70" fill="#ed5051" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ReScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ed5051</text>
+		</g>
+	
+		<g transform="translate(0, 37890)">
+			<rect width="1500" height="70" fill="#ff5847" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Reason</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff5847</text>
+		</g>
+	
+		<g transform="translate(0, 37980)">
+			<rect width="1500" height="70" fill="#ff5847" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ReasonLIGO</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff5847</text>
+		</g>
+	
+		<g transform="translate(0, 38070)">
+			<rect width="1500" height="70" fill="#358a5b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Rebol</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#358a5b</text>
+		</g>
+	
+		<g transform="translate(0, 38160)">
+			<rect width="1500" height="70" fill="#0673ba" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Record Jar</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0673ba</text>
+		</g>
+	
+		<g transform="translate(0, 38250)">
+			<rect width="1500" height="70" fill="#f50000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Red</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f50000</text>
+		</g>
+	
+		<g transform="translate(0, 38340)">
+			<rect width="1500" height="70" fill="#009a00" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Regular Expression</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#009a00</text>
+		</g>
+	
+		<g transform="translate(0, 38430)">
+			<rect width="1500" height="70" fill="#ff7f7f" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Ren'Py</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff7f7f</text>
+		</g>
+	
+		<g transform="translate(0, 38520)">
+			<rect width="1500" height="70" fill="#2D54CB" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Ring</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2D54CB</text>
+		</g>
+	
+		<g transform="translate(0, 38610)">
+			<rect width="1500" height="70" fill="#A71E49" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Riot</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#A71E49</text>
+		</g>
+	
+		<g transform="translate(0, 38700)">
+			<rect width="1500" height="70" fill="#00c0b5" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">RobotFramework</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00c0b5</text>
+		</g>
+	
+		<g transform="translate(0, 38790)">
+			<rect width="1500" height="70" fill="#ecdebe" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Roff</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ecdebe</text>
+		</g>
+	
+		<g transform="translate(0, 38880)">
+			<rect width="1500" height="70" fill="#ecdebe" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Roff Manpage</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ecdebe</text>
+		</g>
+	
+		<g transform="translate(0, 38970)">
+			<rect width="1500" height="70" fill="#cc0088" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Rouge</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#cc0088</text>
+		</g>
+	
+		<g transform="translate(0, 39060)">
+			<rect width="1500" height="70" fill="#DE3941" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">RouterOS Script</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#DE3941</text>
+		</g>
+	
+		<g transform="translate(0, 39150)">
+			<rect width="1500" height="70" fill="#701516" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Ruby</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#701516</text>
+		</g>
+	
+		<g transform="translate(0, 39240)">
+			<rect width="1500" height="70" fill="#dea584" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Rust</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#dea584</text>
+		</g>
+	
+		<g transform="translate(0, 39330)">
+			<rect width="1500" height="70" fill="#B34936" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SAS</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#B34936</text>
+		</g>
+	
+		<g transform="translate(0, 39420)">
+			<rect width="1500" height="70" fill="#c6538c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SCSS</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c6538c</text>
+		</g>
+	
+		<g transform="translate(0, 39510)">
+			<rect width="1500" height="70" fill="#0C4597" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SPARQL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0C4597</text>
+		</g>
+	
+		<g transform="translate(0, 39600)">
+			<rect width="1500" height="70" fill="#3F3F3F" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SQF</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3F3F3F</text>
+		</g>
+	
+		<g transform="translate(0, 39690)">
+			<rect width="1500" height="70" fill="#e38c00" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SQL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#e38c00</text>
+		</g>
+	
+		<g transform="translate(0, 39780)">
+			<rect width="1500" height="70" fill="#e38c00" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SQLPL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#e38c00</text>
+		</g>
+	
+		<g transform="translate(0, 39870)">
+			<rect width="1500" height="70" fill="#348a34" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SRecode Template</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#348a34</text>
+		</g>
+	
+		<g transform="translate(0, 39960)">
+			<rect width="1500" height="70" fill="#373b5e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">STL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#373b5e</text>
+		</g>
+	
+		<g transform="translate(0, 40050)">
+			<rect width="1500" height="70" fill="#ff9900" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SVG</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff9900</text>
+		</g>
+	
+		<g transform="translate(0, 40140)">
+			<rect width="1500" height="70" fill="#646464" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SaltStack</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#646464</text>
+		</g>
+	
+		<g transform="translate(0, 40230)">
+			<rect width="1500" height="70" fill="#a53b70" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Sass</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#a53b70</text>
+		</g>
+	
+		<g transform="translate(0, 40320)">
+			<rect width="1500" height="70" fill="#c22d40" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Scala</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c22d40</text>
+		</g>
+	
+		<g transform="translate(0, 40410)">
+			<rect width="1500" height="70" fill="#bd181a" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Scaml</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#bd181a</text>
+		</g>
+	
+		<g transform="translate(0, 40500)">
+			<rect width="1500" height="70" fill="#fdc700" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Scenic</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fdc700</text>
+		</g>
+	
+		<g transform="translate(0, 40590)">
+			<rect width="1500" height="70" fill="#1e4aec" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Scheme</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1e4aec</text>
+		</g>
+	
+		<g transform="translate(0, 40680)">
+			<rect width="1500" height="70" fill="#ca0f21" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Scilab</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ca0f21</text>
+		</g>
+	
+		<g transform="translate(0, 40770)">
+			<rect width="1500" height="70" fill="#0579aa" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Self</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0579aa</text>
+		</g>
+	
+		<g transform="translate(0, 40860)">
+			<rect width="1500" height="70" fill="#222c37" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ShaderLab</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#222c37</text>
+		</g>
+	
+		<g transform="translate(0, 40950)">
+			<rect width="1500" height="70" fill="#89e051" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Shell</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#89e051</text>
+		</g>
+	
+		<g transform="translate(0, 41040)">
+			<rect width="1500" height="70" fill="#cecfcb" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ShellCheck Config</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#cecfcb</text>
+		</g>
+	
+		<g transform="translate(0, 41130)">
+			<rect width="1500" height="70" fill="#120F14" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Shen</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#120F14</text>
+		</g>
+	
+		<g transform="translate(0, 41220)">
+			<rect width="1500" height="70" fill="#C9BFED" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Simple File Verification</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#C9BFED</text>
+		</g>
+	
+		<g transform="translate(0, 41310)">
+			<rect width="1500" height="70" fill="#64E6AD" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Singularity</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#64E6AD</text>
+		</g>
+	
+		<g transform="translate(0, 41400)">
+			<rect width="1500" height="70" fill="#007eff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Slash</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#007eff</text>
+		</g>
+	
+		<g transform="translate(0, 41490)">
+			<rect width="1500" height="70" fill="#003fa2" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Slice</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#003fa2</text>
+		</g>
+	
+		<g transform="translate(0, 41580)">
+			<rect width="1500" height="70" fill="#2b2b2b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Slim</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2b2b2b</text>
+		</g>
+	
+		<g transform="translate(0, 41670)">
+			<rect width="1500" height="70" fill="#c94949" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SmPL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c94949</text>
+		</g>
+	
+		<g transform="translate(0, 41760)">
+			<rect width="1500" height="70" fill="#596706" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Smalltalk</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#596706</text>
+		</g>
+	
+		<g transform="translate(0, 41850)">
+			<rect width="1500" height="70" fill="#f0c040" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Smarty</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f0c040</text>
+		</g>
+	
+		<g transform="translate(0, 41940)">
+			<rect width="1500" height="70" fill="#c44536" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Smithy</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c44536</text>
+		</g>
+	
+		<g transform="translate(0, 42030)">
+			<rect width="1500" height="70" fill="#419179" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Snakemake</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#419179</text>
+		</g>
+	
+		<g transform="translate(0, 42120)">
+			<rect width="1500" height="70" fill="#AA6746" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Solidity</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#AA6746</text>
+		</g>
+	
+		<g transform="translate(0, 42210)">
+			<rect width="1500" height="70" fill="#f69e1d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SourcePawn</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f69e1d</text>
+		</g>
+	
+		<g transform="translate(0, 42300)">
+			<rect width="1500" height="70" fill="#800000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Squirrel</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#800000</text>
+		</g>
+	
+		<g transform="translate(0, 42390)">
+			<rect width="1500" height="70" fill="#b2011d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Stan</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#b2011d</text>
+		</g>
+	
+		<g transform="translate(0, 42480)">
+			<rect width="1500" height="70" fill="#dc566d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Standard ML</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#dc566d</text>
+		</g>
+	
+		<g transform="translate(0, 42570)">
+			<rect width="1500" height="70" fill="#76d275" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Starlark</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#76d275</text>
+		</g>
+	
+		<g transform="translate(0, 42660)">
+			<rect width="1500" height="70" fill="#1a5f91" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Stata</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1a5f91</text>
+		</g>
+	
+		<g transform="translate(0, 42750)">
+			<rect width="1500" height="70" fill="#3fb34f" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">StringTemplate</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3fb34f</text>
+		</g>
+	
+		<g transform="translate(0, 42840)">
+			<rect width="1500" height="70" fill="#ff6347" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Stylus</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff6347</text>
+		</g>
+	
+		<g transform="translate(0, 42930)">
+			<rect width="1500" height="70" fill="#9e0101" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SubRip Text</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#9e0101</text>
+		</g>
+	
+		<g transform="translate(0, 43020)">
+			<rect width="1500" height="70" fill="#2fcc9f" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SugarSS</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2fcc9f</text>
+		</g>
+	
+		<g transform="translate(0, 43110)">
+			<rect width="1500" height="70" fill="#46390b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SuperCollider</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#46390b</text>
+		</g>
+	
+		<g transform="translate(0, 43200)">
+			<rect width="1500" height="70" fill="#ff3e00" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Svelte</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff3e00</text>
+		</g>
+	
+		<g transform="translate(0, 43290)">
+			<rect width="1500" height="70" fill="#dea584" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Sway</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#dea584</text>
+		</g>
+	
+		<g transform="translate(0, 43380)">
+			<rect width="1500" height="70" fill="#F05138" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Swift</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#F05138</text>
+		</g>
+	
+		<g transform="translate(0, 43470)">
+			<rect width="1500" height="70" fill="#DAE1C2" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">SystemVerilog</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#DAE1C2</text>
+		</g>
+	
+		<g transform="translate(0, 43560)">
+			<rect width="1500" height="70" fill="#A0AA87" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">TI Program</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#A0AA87</text>
+		</g>
+	
+		<g transform="translate(0, 43650)">
+			<rect width="1500" height="70" fill="#4b0079" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">TLA</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4b0079</text>
+		</g>
+	
+		<g transform="translate(0, 43740)">
+			<rect width="1500" height="70" fill="#9c4221" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">TOML</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#9c4221</text>
+		</g>
+	
+		<g transform="translate(0, 43830)">
+			<rect width="1500" height="70" fill="#e38c00" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">TSQL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#e38c00</text>
+		</g>
+	
+		<g transform="translate(0, 43920)">
+			<rect width="1500" height="70" fill="#237346" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">TSV</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#237346</text>
+		</g>
+	
+		<g transform="translate(0, 44010)">
+			<rect width="1500" height="70" fill="#3178c6" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">TSX</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3178c6</text>
+		</g>
+	
+		<g transform="translate(0, 44100)">
+			<rect width="1500" height="70" fill="#0178b8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">TXL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0178b8</text>
+		</g>
+	
+		<g transform="translate(0, 44190)">
+			<rect width="1500" height="70" fill="#333333" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Talon</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#333333</text>
+		</g>
+	
+		<g transform="translate(0, 44280)">
+			<rect width="1500" height="70" fill="#e4cc98" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Tcl</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#e4cc98</text>
+		</g>
+	
+		<g transform="translate(0, 44370)">
+			<rect width="1500" height="70" fill="#3D6117" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">TeX</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3D6117</text>
+		</g>
+	
+		<g transform="translate(0, 44460)">
+			<rect width="1500" height="70" fill="#00004c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Terra</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00004c</text>
+		</g>
+	
+		<g transform="translate(0, 44550)">
+			<rect width="1500" height="70" fill="#df66e4" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">TextMate Properties</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#df66e4</text>
+		</g>
+	
+		<g transform="translate(0, 44640)">
+			<rect width="1500" height="70" fill="#ffe7ac" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Textile</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ffe7ac</text>
+		</g>
+	
+		<g transform="translate(0, 44730)">
+			<rect width="1500" height="70" fill="#D12127" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Thrift</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#D12127</text>
+		</g>
+	
+		<g transform="translate(0, 44820)">
+			<rect width="1500" height="70" fill="#cf142b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Turing</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#cf142b</text>
+		</g>
+	
+		<g transform="translate(0, 44910)">
+			<rect width="1500" height="70" fill="#c1d026" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Twig</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c1d026</text>
+		</g>
+	
+		<g transform="translate(0, 45000)">
+			<rect width="1500" height="70" fill="#3178c6" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">TypeScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3178c6</text>
+		</g>
+	
+		<g transform="translate(0, 45090)">
+			<rect width="1500" height="70" fill="#4e3617" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Unified Parallel C</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4e3617</text>
+		</g>
+	
+		<g transform="translate(0, 45180)">
+			<rect width="1500" height="70" fill="#222c37" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Unity3D Asset</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#222c37</text>
+		</g>
+	
+		<g transform="translate(0, 45270)">
+			<rect width="1500" height="70" fill="#9933cc" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Uno</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#9933cc</text>
+		</g>
+	
+		<g transform="translate(0, 45360)">
+			<rect width="1500" height="70" fill="#a54c4d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">UnrealScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#a54c4d</text>
+		</g>
+	
+		<g transform="translate(0, 45450)">
+			<rect width="1500" height="70" fill="#ccccee" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">UrWeb</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ccccee</text>
+		</g>
+	
+		<g transform="translate(0, 45540)">
+			<rect width="1500" height="70" fill="#4f87c4" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">V</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4f87c4</text>
+		</g>
+	
+		<g transform="translate(0, 45630)">
+			<rect width="1500" height="70" fill="#867db1" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">VBA</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#867db1</text>
+		</g>
+	
+		<g transform="translate(0, 45720)">
+			<rect width="1500" height="70" fill="#15dcdc" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">VBScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#15dcdc</text>
+		</g>
+	
+		<g transform="translate(0, 45810)">
+			<rect width="1500" height="70" fill="#148AA8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">VCL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#148AA8</text>
+		</g>
+	
+		<g transform="translate(0, 45900)">
+			<rect width="1500" height="70" fill="#adb2cb" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">VHDL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#adb2cb</text>
+		</g>
+	
+		<g transform="translate(0, 45990)">
+			<rect width="1500" height="70" fill="#a56de2" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Vala</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#a56de2</text>
+		</g>
+	
+		<g transform="translate(0, 46080)">
+			<rect width="1500" height="70" fill="#f26025" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Valve Data Format</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f26025</text>
+		</g>
+	
+		<g transform="translate(0, 46170)">
+			<rect width="1500" height="70" fill="#507cff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Velocity Template Language</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#507cff</text>
+		</g>
+	
+		<g transform="translate(0, 46260)">
+			<rect width="1500" height="70" fill="#b2b7f8" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Verilog</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#b2b7f8</text>
+		</g>
+	
+		<g transform="translate(0, 46350)">
+			<rect width="1500" height="70" fill="#199f4b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Vim Help File</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#199f4b</text>
+		</g>
+	
+		<g transform="translate(0, 46440)">
+			<rect width="1500" height="70" fill="#199f4b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Vim Script</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#199f4b</text>
+		</g>
+	
+		<g transform="translate(0, 46530)">
+			<rect width="1500" height="70" fill="#199f4b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Vim Snippet</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#199f4b</text>
+		</g>
+	
+		<g transform="translate(0, 46620)">
+			<rect width="1500" height="70" fill="#945db7" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Visual Basic .NET</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#945db7</text>
+		</g>
+	
+		<g transform="translate(0, 46710)">
+			<rect width="1500" height="70" fill="#2c6353" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Visual Basic 6.0</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2c6353</text>
+		</g>
+	
+		<g transform="translate(0, 46800)">
+			<rect width="1500" height="70" fill="#1F1F1F" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Volt</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1F1F1F</text>
+		</g>
+	
+		<g transform="translate(0, 46890)">
+			<rect width="1500" height="70" fill="#41b883" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Vue</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#41b883</text>
+		</g>
+	
+		<g transform="translate(0, 46980)">
+			<rect width="1500" height="70" fill="#2980b9" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Vyper</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2980b9</text>
+		</g>
+	
+		<g transform="translate(0, 47070)">
+			<rect width="1500" height="70" fill="#5b70bd" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Web Ontology Language</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#5b70bd</text>
+		</g>
+	
+		<g transform="translate(0, 47160)">
+			<rect width="1500" height="70" fill="#04133b" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">WebAssembly</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#04133b</text>
+		</g>
+	
+		<g transform="translate(0, 47250)">
+			<rect width="1500" height="70" fill="#d5c397" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Whiley</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#d5c397</text>
+		</g>
+	
+		<g transform="translate(0, 47340)">
+			<rect width="1500" height="70" fill="#fc5757" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Wikitext</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#fc5757</text>
+		</g>
+	
+		<g transform="translate(0, 47430)">
+			<rect width="1500" height="70" fill="#52d5ff" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Windows Registry Entries</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#52d5ff</text>
+		</g>
+	
+		<g transform="translate(0, 47520)">
+			<rect width="1500" height="70" fill="#ff0000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Witcher Script</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ff0000</text>
+		</g>
+	
+		<g transform="translate(0, 47610)">
+			<rect width="1500" height="70" fill="#a23738" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Wollok</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#a23738</text>
+		</g>
+	
+		<g transform="translate(0, 47700)">
+			<rect width="1500" height="70" fill="#f7e43f" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">World of Warcraft Addon Data</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#f7e43f</text>
+		</g>
+	
+		<g transform="translate(0, 47790)">
+			<rect width="1500" height="70" fill="#383838" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Wren</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#383838</text>
+		</g>
+	
+		<g transform="translate(0, 47880)">
+			<rect width="1500" height="70" fill="#4B6BEF" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">X10</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4B6BEF</text>
+		</g>
+	
+		<g transform="translate(0, 47970)">
+			<rect width="1500" height="70" fill="#99DA07" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">XC</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#99DA07</text>
+		</g>
+	
+		<g transform="translate(0, 48060)">
+			<rect width="1500" height="70" fill="#0060ac" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">XML</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0060ac</text>
+		</g>
+	
+		<g transform="translate(0, 48150)">
+			<rect width="1500" height="70" fill="#0060ac" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">XML Property List</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0060ac</text>
+		</g>
+	
+		<g transform="translate(0, 48240)">
+			<rect width="1500" height="70" fill="#5232e7" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">XQuery</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#5232e7</text>
+		</g>
+	
+		<g transform="translate(0, 48330)">
+			<rect width="1500" height="70" fill="#EB8CEB" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">XSLT</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#EB8CEB</text>
+		</g>
+	
+		<g transform="translate(0, 48420)">
+			<rect width="1500" height="70" fill="#81bd41" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Xojo</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#81bd41</text>
+		</g>
+	
+		<g transform="translate(0, 48510)">
+			<rect width="1500" height="70" fill="#285EEF" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Xonsh</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#285EEF</text>
+		</g>
+	
+		<g transform="translate(0, 48600)">
+			<rect width="1500" height="70" fill="#24255d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Xtend</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#24255d</text>
+		</g>
+	
+		<g transform="translate(0, 48690)">
+			<rect width="1500" height="70" fill="#cb171e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">YAML</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#cb171e</text>
+		</g>
+	
+		<g transform="translate(0, 48780)">
+			<rect width="1500" height="70" fill="#220000" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">YARA</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#220000</text>
+		</g>
+	
+		<g transform="translate(0, 48870)">
+			<rect width="1500" height="70" fill="#32AB90" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">YASnippet</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#32AB90</text>
+		</g>
+	
+		<g transform="translate(0, 48960)">
+			<rect width="1500" height="70" fill="#4B6C4B" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Yacc</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4B6C4B</text>
+		</g>
+	
+		<g transform="translate(0, 49050)">
+			<rect width="1500" height="70" fill="#794932" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Yul</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#794932</text>
+		</g>
+	
+		<g transform="translate(0, 49140)">
+			<rect width="1500" height="70" fill="#0d665e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ZAP</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0d665e</text>
+		</g>
+	
+		<g transform="translate(0, 49230)">
+			<rect width="1500" height="70" fill="#dc75e5" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ZIL</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#dc75e5</text>
+		</g>
+	
+		<g transform="translate(0, 49320)">
+			<rect width="1500" height="70" fill="#00BCD1" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ZenScript</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00BCD1</text>
+		</g>
+	
+		<g transform="translate(0, 49410)">
+			<rect width="1500" height="70" fill="#118f9e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Zephir</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#118f9e</text>
+		</g>
+	
+		<g transform="translate(0, 49500)">
+			<rect width="1500" height="70" fill="#ec915c" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Zig</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#ec915c</text>
+		</g>
+	
+		<g transform="translate(0, 49590)">
+			<rect width="1500" height="70" fill="#d67711" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">Zimpl</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#d67711</text>
+		</g>
+	
+		<g transform="translate(0, 49680)">
+			<rect width="1500" height="70" fill="#913960" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">eC</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#913960</text>
+		</g>
+	
+		<g transform="translate(0, 49770)">
+			<rect width="1500" height="70" fill="#4aae47" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">fish</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#4aae47</text>
+		</g>
+	
+		<g transform="translate(0, 49860)">
+			<rect width="1500" height="70" fill="#00b171" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">hoon</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#00b171</text>
+		</g>
+	
+		<g transform="translate(0, 49950)">
+			<rect width="1500" height="70" fill="#c7254e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">jq</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#c7254e</text>
+		</g>
+	
+		<g transform="translate(0, 50040)">
+			<rect width="1500" height="70" fill="#1da6e0" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">kvlang</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#1da6e0</text>
+		</g>
+	
+		<g transform="translate(0, 50130)">
+			<rect width="1500" height="70" fill="#3d57c3" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">mIRC Script</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#3d57c3</text>
+		</g>
+	
+		<g transform="translate(0, 50220)">
+			<rect width="1500" height="70" fill="#E22837" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">mcfunction</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#E22837</text>
+		</g>
+	
+		<g transform="translate(0, 50310)">
+			<rect width="1500" height="70" fill="#244963" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">mupad</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#244963</text>
+		</g>
+	
+		<g transform="translate(0, 50400)">
+			<rect width="1500" height="70" fill="#2d004d" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">nanorc</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#2d004d</text>
+		</g>
+	
+		<g transform="translate(0, 50490)">
+			<rect width="1500" height="70" fill="#94B0C7" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">nesC</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#94B0C7</text>
+		</g>
+	
+		<g transform="translate(0, 50580)">
+			<rect width="1500" height="70" fill="#b0b77e" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">ooc</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#b0b77e</text>
+		</g>
+	
+		<g transform="translate(0, 50670)">
+			<rect width="1500" height="70" fill="#0040cd" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">q</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#0040cd</text>
+		</g>
+	
+		<g transform="translate(0, 50760)">
+			<rect width="1500" height="70" fill="#141414" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">reStructuredText</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#141414</text>
+		</g>
+	
+		<g transform="translate(0, 50850)">
+			<rect width="1500" height="70" fill="#64b970" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">sed</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#64b970</text>
+		</g>
+	
+		<g transform="translate(0, 50940)">
+			<rect width="1500" height="70" fill="#42f1f4" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">wdl</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#42f1f4</text>
+		</g>
+	
+		<g transform="translate(0, 51030)">
+			<rect width="1500" height="70" fill="#7582D1" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">wisp</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#7582D1</text>
+		</g>
+	
+		<g transform="translate(0, 51120)">
+			<rect width="1500" height="70" fill="#403a40" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">xBase</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#403a40</text>
+		</g>
+	
+</svg>
