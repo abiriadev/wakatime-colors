@@ -19,5 +19,5 @@
 	"dependencies": {
 		"cheerio-json-mapper": "^1.0.3"
 	},
-	"type": "module",
+	"type": "module"
 }
