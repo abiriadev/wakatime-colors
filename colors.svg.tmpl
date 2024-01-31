@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<style type="text/css">
+			@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700');
+		</style>
+	</defs>
+	<style>
+		.f {
+			font-family: "Roboto", sans-serif;
+			font-weight: 700;
+		}
+	</style>
+	{{range .}}
+		<g transform="translate(0, {{.X}})">
+			<rect width="1500" height="70" fill="{{.Color}}" />
+			<text class="f" x="10" y="52" fill="#ffffff" font-size="50">{{.Name}}</text>
+			<text font-family="monospace" x="1310" y="50" fill="#ffffff" font-size="40">#123456</text>
+		</g>
+	{{end}}
+</svg>
