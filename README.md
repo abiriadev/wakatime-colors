@@ -12,6 +12,10 @@ The data is updated automatically at regular intervals.
 
 You can directly fetch [the raw content from github](https://github.com/abiriadev/wakatime-colors/raw/main/colors.json) to get the latest data.
 
+```sh
+$ curl -L https://github.com/abiriadev/wakatime-colors/raw/main/colors.json
+```
+
 Alternatively, you can import this repository as an npm module and call the [`fetchJson()`](https://github.com/abiriadev/wakatime-colors/blob/main/src/index.ts#L3) function the retrieve the data from your JavaScript/TypeScript app.
 
 ### Docker support
