@@ -10,13 +10,13 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"dependencies": {
-		"x-ray": "^2.3.4"
-	},
 	"devDependencies": {
 		"@swc/cli": "^0.3.5",
 		"@swc/core": "^1.3.107",
 		"typescript": "^5.3.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"cheerio-json-mapper": "^1.0.3"
+	}
 }
