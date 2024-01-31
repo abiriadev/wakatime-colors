@@ -1,5 +1,7 @@
 # Wakatime Colors
 
+[![Update](https://github.com/abiriadev/wakatime-colors/actions/workflows/update.yaml/badge.svg)](https://github.com/abiriadev/wakatime-colors/actions/workflows/update.yaml)
+
 ## Overview
 
 A machine-readable list of programming languages along with their primary colors, as used in Wakatime.
