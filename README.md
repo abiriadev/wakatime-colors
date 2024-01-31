@@ -1,43 +1,47 @@
-# Wakatime colors
+# Wakatime Colors
 
 ## Overview
 
-A list of programming languages and their primary colors used in wakatime as machine-readable format.
+A machine-readable list of programming languages along with their primary colors, as used in Wakatime.
 
-The list is updated automatically periodically.
+The data is updated automatically at regular intervals.
 
-## How to read the data?
+## Accessing the Data
 
-You can directly fetch [the raw content](https://github.com/abiriadev/wakatime-colors/raw/main/colors.json) to get the latest data. Otherwise, you can import this repository as npm module then call [`fetchJson()`](https://github.com/abiriadev/wakatime-colors/blob/main/src/index.ts#L3) function.
+You can directly fetch [the raw content from github](https://github.com/abiriadev/wakatime-colors/raw/main/colors.json) to get the latest data.
 
-## Manually build
+Alternatively, you can import this repository as an npm module and call the [`fetchJson()`](https://github.com/abiriadev/wakatime-colors/blob/main/src/index.ts#L3) function the retrieve the data from your JavaScript/TypeScript app.
+
+## Manually Build
+
+To manually build the project, follow these steps:
 
 ```sh
-# checkout this repository
+# Checkout the repository
 $ git https://github.com/abiriadev/wakatime-colors && cd wakatime-colors
 
-# install dependencies
+# Install dependencies
 $ corepack enable
 $ pnpm install
 
-# build source
+# Build the source
 $ pnpm build
 
-# then, run below command to fetch and save data
+# Finally, run below command to fetch and save data
 $ pnpm run fetch
 ```
 
-Then, you will get data in `colors.json`.
+After running the above commands, the updated data will be available in `colors.json`.
 
-### Render SVG preview image
+### Rendering an SVG Preview Image
 
-Assume you have `colors.json` file at the root.
+To generate an SVG preview image, assuming you have the `colors.json` file at the root:
 
 ```sh
 $ go run .
 ```
 
-Then, you will get rendered SVG file in `colors.svg`.
+This command will create a rendered SVG file named `colors.svg`.
 
 ## Preview
 
