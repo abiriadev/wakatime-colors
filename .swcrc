@@ -8,11 +8,11 @@
 		"target": "es2022"
 		"paths": {
 			"@/*": ["./src/*"]
-		}
+		},
 	},
 	"module": {
 		"type": "es6",
-		"ignoreDynamic": true
+		"resolveFully": true,
 	},
 	"sourceMaps": true
 }
