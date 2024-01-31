@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
 	"os"
 	"text/template"
 )
@@ -18,14 +19,17 @@ type Language struct {
 }
 
 const (
-	fileIn   = "colors.json"
-	fileTmpl = "colors.svg.tmpl"
-	fileOut  = "colors.svg"
+	rowHeight = 90
 )
 
 func main() {
+	flag.Parse()
 
-	f, err := os.Open(fileIn)
+	fileIn := flag.String("data", "colors.json", "A path to JSON data to read")
+	fileTmpl := flag.String("template", "colors.svg.tmpl", "A path to SVG template to use")
+	fileOut := flag.String("out", "colors.svg", "Name of the rendered SVG")
+
+	f, err := os.Open(*fileIn)
 	if err != nil {
 		panic(err)
 	}
@@ -34,17 +38,17 @@ func main() {
 	json.NewDecoder(f).Decode(&temp.Languages)
 
 	for i := range temp.Languages {
-		temp.Languages[i].X = 90 * i
+		temp.Languages[i].X = rowHeight * i
 	}
 
-	temp.Height = len(temp.Languages) * 90
+	temp.Height = len(temp.Languages) * rowHeight
 
-	tmpl, err := template.New(fileTmpl).ParseFiles(fileTmpl)
+	tmpl, err := template.New(*fileTmpl).ParseFiles(*fileTmpl)
 	if err != nil {
 		panic(err)
 	}
 
-	out, err := os.Create(fileOut)
+	out, err := os.Create(*fileOut)
 	if err != nil {
 		panic(err)
 	}
