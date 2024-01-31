@@ -14,6 +14,16 @@ You can directly fetch [the raw content from github](https://github.com/abiriade
 
 Alternatively, you can import this repository as an npm module and call the [`fetchJson()`](https://github.com/abiriadev/wakatime-colors/blob/main/src/index.ts#L3) function the retrieve the data from your JavaScript/TypeScript app.
 
+### Docker support
+
+You can run the fetcher as a docker container!
+
+```sh
+$ docker run --rm ghcr.io/abiriadev/wakatime-colors:main
+```
+
+It will immediately fetch and print the latest data to the standard output.
+
 ## Manually Build
 
 To manually build the project, follow these steps:
